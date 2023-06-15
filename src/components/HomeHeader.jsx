@@ -5,6 +5,9 @@ import '../fonts/KEROZENE.otf';
 import '../fonts/Ogg-Italic.otf';
 import '../fonts/Ogg-Roman.otf';
 
+// HEADER COMPONENT FOR WHEN ON HOME PAGE
+// NO HORIZONTAL NAV as links are vertical and large
+
 export function HomeHeader() {
     return (
         <nav className="px-4 py-6 flex flex-col md:flex-row items-center justify-between">

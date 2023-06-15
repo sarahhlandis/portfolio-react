@@ -7,6 +7,8 @@ import { NavLink } from "react-router-dom";
 import { HomeNav } from './HomeNav';
 import { useLocation } from 'react-router-dom';
 
+// HEADER COMPONENT FOR WHEN ON ALL PAGES BUT /
+// HORIZONTAL NAV IN LINE WITH NAME
 
 export function Header() {
     const location = useLocation();
@@ -18,9 +20,9 @@ export function Header() {
                 sarah landis
             </NavLink>
           </div>
-          <ul className="flex px-4 py-6 text-center space-x-10 text-xl font-Anabele">
+          {/* <ul className="flex px-4 py-6 text-center space-x-10 text-xl font-Anabele">
             <HomeNav />
-          </ul>
+          </ul> */}
         </nav>
       );
     }
