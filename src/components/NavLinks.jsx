@@ -24,8 +24,8 @@ export function NavigationLinks() {
         <li
         className={
           isHomePage
-            ? "hover:italic hover:translate-x-5 transition-transform duration-300"
-            : ""
+            ? "hover:italic hover:translate-x-4 transition-transform duration-700"
+            : "hover:italic"
         }
         >
           <NavLink
@@ -38,8 +38,8 @@ export function NavigationLinks() {
         <li
         className={
           isHomePage
-            ? "hover:italic hover:translate-x-5 transition-transform duration-300"
-            : ""
+            ? "hover:italic hover:translate-x-4 transition-transform duration-700"
+            : "hover:italic"
         }
         >
           <NavLink
@@ -52,8 +52,8 @@ export function NavigationLinks() {
         <li
         className={
           isHomePage
-            ? "hover:italic hover:translate-x-5 transition-transform duration-300"
-            : ""
+            ? "hover:italic hover:translate-x-4 transition-transform duration-700"
+            : "hover:italic"
         }
         >
           <NavLink

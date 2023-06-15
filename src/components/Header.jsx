@@ -16,7 +16,7 @@ export function Header() {
     return (
         <nav className="px-4 py-6 flex flex-col md:flex-row items-center justify-between">
           <div className="flex items-center mb-4 md:mb-0">
-            <NavLink to="/" className="mr-2 text-xl font-Anabele">
+            <NavLink to="/" className="mr-2 text-4xl font-Anabele mb-10">
                 sarah landis
             </NavLink>
           </div>
