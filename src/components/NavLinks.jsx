@@ -17,7 +17,7 @@ export function NavigationLinks() {
             home
           </NavLink>
         </li> */}
-        <li>
+        <li className="hover:italic hover:translate-x-5 transition-transform duration-300">
           <NavLink
             to="/about"
             style={({ isActive }) => isActive ? activeNavStyle : undefined}
@@ -25,7 +25,7 @@ export function NavigationLinks() {
             about me
           </NavLink>
         </li>
-        <li>
+        <li className="hover:italic hover:translate-x-5 transition-transform duration-300">
           <NavLink
             to="/projects"
             style={({ isActive }) => isActive ? activeNavStyle : undefined}
@@ -33,7 +33,7 @@ export function NavigationLinks() {
             projects
           </NavLink>
         </li>
-        <li>
+        <li className="hover:italic hover:translate-x-5 transition-transform duration-300">
           <NavLink
             to="/connect"
             style={({ isActive }) => isActive ? activeNavStyle : undefined}
