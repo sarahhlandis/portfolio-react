@@ -1,5 +1,6 @@
 #root {
   max-width: 1280px;
+  max-height: 98vh;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -20,6 +21,17 @@
   font-family: 'Ogg';
   src: url('./src/fonts/Ogg-Italic.otf') format('opentype'),
        url('./src/fonts/Ogg-Roman.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'NeueMontreal';
+  src: url('./src/fonts/NeueMontreal-Light.otf') format('opentype'),
+       url('./src/fonts/NeueMontreal-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('./src/fonts/Poppins-Bold.ttf') format('truetype'); 
 }
 
 .logo {

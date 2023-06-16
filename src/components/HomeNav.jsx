@@ -1,7 +1,8 @@
 import { NavLink } from "react-router-dom";
-import { Link, useLocation } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import { NavigationLinks } from "./NavLinks";
 
+// NAV FOR WHEN ON ANY PAGE BUT HOME (able to return home from this nav)
 
 export function HomeNav() {
     const location = useLocation();
@@ -14,8 +15,6 @@ export function HomeNav() {
   
     return (
       <>
-        {location.pathname === '/' ? <HomeNav /> : <NavigationLinks />}
-        {/* {location.pathname === '/' ? <NavigationLinks /> : <HomeNav />} */}
         <li className="hover:italic">          
         <NavLink
             to="/"
@@ -24,6 +23,7 @@ export function HomeNav() {
             home
         </NavLink>
         </li>
+        {location.pathname === '/' ? <HomeNav /> : <NavigationLinks />}
      </>
     );
 }

@@ -1,16 +1,44 @@
-import React from "react";
-import { HomeNav } from "../components/HomeNav";
-import { NavigationLinks } from "../components/NavLinks";
+// import { useState, useEffect } from 'react';
+import { NavigationLinks } from '../components/NavLinks';
+import { Header } from '../components/header';
+import { useEffect } from 'react';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
-export function Home(){
-    return(
+export function Home() {
+//   const [isVisible, setIsVisible] = useState(false);
+
+//   useEffect(() => {
+//     setIsVisible(true);
+//   }, []);
+
+useEffect(() => {
+    AOS.init({
+      duration: 2000,
+      once: true, // Animation occurs only once
+      container: "#aos-container", // Specify the container for AOS animations
+    });
+  }, []);
+
+  return (
     <div>
-        {/* <ul className="flex px-4 py-6 text-center space-x-10 text-xl font-Anabele"> */}
-        <ul className="font-Anabele text-9xl text-left">    
-            <NavigationLinks />
-        </ul>
+      <Header />
+      <ul className="font-Anabele text-9xl text-right bg-orange-100">
+        <NavigationLinks />
+      </ul>
+      <section className="font-poppins font-extralight text-left text-2xl">
+        <p data-aos="fade-up" data-aos-delay="150" data-aos-duration="3000">
+          SARAH LANDIS
+        </p>
+        <p data-aos="fade-up" data-aos-delay="250" data-aos-duration="3000">
+          based in Byron Bay, Australia
+        </p>
+        <p data-aos="fade-up" data-aos-delay="350" data-aos-duration="3000">
+          passionate front-end developer
+        </p>
+      </section>
     </div>
+  );
 
-    );
-
+  
 }
