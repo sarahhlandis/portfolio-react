@@ -4,13 +4,9 @@ import '../fonts/KEROZENE.otf';
 import '../fonts/Ogg-Italic.otf';
 import '../fonts/Ogg-Roman.otf';
 import { NavLink } from "react-router-dom";
-import { useLocation } from 'react-router-dom';
-import { HomeNav } from './HomeNav';
-
 // import { useLocation } from 'react-router-dom';
+// import { HomeNav } from './HomeNav';
 
-// HEADER COMPONENT FOR WHEN ON ALL PAGES BUT /
-// HORIZONTAL NAV IN LINE WITH NAME
 
 export function Header() {
     // const location = useLocation();
@@ -21,8 +17,8 @@ export function Header() {
     // const isHomePage = location.pathname === "/";
 
     return(
-        <div className="flex items-center mb-4 md:mb-0 align-middle">
-            <NavLink to="/" className="mr-2 text-6xl font-Anabele mb-10 align-middle">
+        <div className="flex items-center align-middle">
+            <NavLink to="/" className="mr-2 text-6xl font-Anabele p-10 align-middle">
                 S.
             </NavLink>
         </div>
