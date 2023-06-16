@@ -27,12 +27,12 @@ export function HomeHeader() {
     return (
       <>
         {location.pathname !== '/' && (
-          <nav className="px-4 py-6 flex flex-col md:flex-row items-center justify-between">
+          <nav className="flex flex-col md:flex-row items-center justify-between">
             <Header />
             {/* <ul className="text-right font-Anabele">
               <HomeNav />
             </ul> */}
-            <ul className="flex px-4 py-6 text-center space-x-10 text-xl font-Anabele">
+            <ul className="flex text-center space-x-10 text-xl font-Anabele">
               <HomeNav />
             </ul>
           </nav>

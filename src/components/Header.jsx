@@ -18,7 +18,7 @@ export function Header() {
 
     return(
         <div className="flex items-center align-middle">
-            <NavLink to="/" className="mr-2 text-6xl font-Anabele p-10 align-middle">
+            <NavLink to="/" className="p-2 text-6xl font-Anabele align-middle">
                 S.
             </NavLink>
         </div>
