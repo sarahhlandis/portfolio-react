@@ -4,8 +4,8 @@ import { faLinkedin, faGithubSquare } from '@fortawesome/free-brands-svg-icons'
 
 export function Footer() {
     return (
-        <div>
-            <div className="relative bottom-0 right-0 flex flex-col items-end pb-5 text-5xl">
+        <div className="relative bottom-0">
+            <div className="right-0 flex flex-col items-end pb-5 text-5xl">
                 <a href="https://www.linkedin.com/in/sarahhlandis/" target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faLinkedin} style={{ color: "#BAE6FD" }} />
                 </a>

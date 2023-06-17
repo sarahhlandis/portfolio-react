@@ -2,26 +2,25 @@ import { NavLink } from "react-router-dom";
 import { useLocation } from 'react-router-dom';
 import { NavigationLinks } from "./NavLinks";
 
-// NAV FOR WHEN ON ANY PAGE BUT HOME (able to return home from this nav)
+// NAV FOR WHEN ON ANY PAGE EXCEPT HOME (able to return home from this nav)
 
 export function HomeNav() {
     const location = useLocation();
+    const notHomePage = location.pathname !== "/";
 
-    let activeNavStyle = {
-        color: "white",
-        fontStyle: "italic",
-        backgroundColor: "black",
-    };
+    const linkStyle = notHomePage
+    ? "relative inline-block bg-gradient-to-t from-sky-300 from-35% to-transparent to-40% hover:bg-sky-300 transition duration-100 ease-in-out"
+    : undefined;
   
     return (
       <>
         <li className="hover:italic">          
-        <NavLink
-            to="/"
-            style={({ isActive }) => isActive ? activeNavStyle : undefined}
-        >
-            home
-        </NavLink>
+            <NavLink
+                to="/"
+                className={linkStyle}
+            >
+                home
+            </NavLink>
         </li>
         {location.pathname === '/' ? <HomeNav /> : <NavigationLinks />}
      </>

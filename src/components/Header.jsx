@@ -6,6 +6,7 @@ import '../fonts/Ogg-Roman.otf';
 import { NavLink } from "react-router-dom";
 // import { useLocation } from 'react-router-dom';
 
+// HEADER COMPONENT FOR HOME PAGE ONLY (NAV LINKS NOT IN NAVBAR)
 
 export function Header() {
     // const location = useLocation();

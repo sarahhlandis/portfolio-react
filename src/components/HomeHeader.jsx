@@ -7,7 +7,7 @@ import { HomeNav } from './HomeNav';
 import { useLocation } from 'react-router-dom';
 import { Header } from './header';
 
-// HEADER COMPONENT FOR WHEN ON ALL PAGES EXCEPT HOME
+// HEADER COMPONENT FOR WHEN ON ANY PAGE EXCEPT HOME (NAVLINKS IN NAVBAR)
 
 export function HomeHeader() {
     const location = useLocation();
