@@ -15,12 +15,14 @@ export function Header() {
 
     // const isHomePage = location.pathname === "/";
 
-    return(
+    return (
         <div className="flex items-center align-middle pb-5">
-            <NavLink to="/" className="text-6xl pt-5 font-Anabele align-middle">
+            <NavLink
+                to="/"
+                className="text-6xl pt-5 font-Anabele align-middle hover:scale-105 transition-transform duration-300"
+            >
                 S.
             </NavLink>
         </div>
     );
-
 }

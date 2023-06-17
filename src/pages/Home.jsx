@@ -15,15 +15,15 @@ export function Home() {
 useEffect(() => {
     AOS.init({
       duration: 2000,
-    //   once: true, // animation occurs only once
-    //   container: "#aos-container", 
+      once: true, // animation occurs only once
+      container: "#aos-container", 
     });
   }, []);
 
   return (
     <div>
       <Header />
-      <ul className="font-Anabele text-9xl text-right bg-orange-100">
+      <ul className="font-Anabele text-9xl text-right bg-orange-100 pb-8">
         <NavigationLinks />
       </ul>
       <section className="font-poppins font-extralight text-left text-2xl pt-5">

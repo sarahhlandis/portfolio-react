@@ -5,9 +5,7 @@ import "aos/dist/aos.css";
 export function About(){
     useEffect(() => {
         AOS.init({
-          duration: 2000,
-          once: true, // Animation occurs only once
-          container: "#aos-container", // Specify the container for AOS animations
+          duration: 2000
         });
       }, []);
     
