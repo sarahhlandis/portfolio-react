@@ -15,8 +15,8 @@ export function Home() {
 useEffect(() => {
     AOS.init({
       duration: 2000,
-      once: true, // Animation occurs only once
-      container: "#aos-container", // Specify the container for AOS animations
+    //   once: true, // animation occurs only once
+    //   container: "#aos-container", 
     });
   }, []);
 
@@ -26,14 +26,14 @@ useEffect(() => {
       <ul className="font-Anabele text-9xl text-right bg-orange-100">
         <NavigationLinks />
       </ul>
-      <section className="font-poppins font-extralight text-left text-2xl">
-        <p data-aos="fade-up" data-aos-delay="150" data-aos-duration="3000">
+      <section className="font-poppins font-extralight text-left text-2xl pt-5">
+        <p className="font-poppins font-extrabold text-3xl" data-aos="fade-right" data-aos-delay="150" data-aos-duration="3000">
           SARAH LANDIS
         </p>
-        <p data-aos="fade-up" data-aos-delay="250" data-aos-duration="3000">
+        <p className="" data-aos="fade-up" data-aos-delay="300" data-aos-duration="3000">
           based in Byron Bay, Australia
         </p>
-        <p data-aos="fade-up" data-aos-delay="350" data-aos-duration="3000">
+        <p className="" data-aos="fade-up" data-aos-delay="400" data-aos-duration="3000">
           passionate front-end developer
         </p>
       </section>

@@ -29,17 +29,41 @@ export function About(){
         )} */}
         {/* <HomeHeader /> */}
 
-        <div className="text-left">
-            <section data-aos="fade-up">
-                <p className="text-xl">
+        <div className="text-left font-poppins font-extralight pt-10">
+            <section data-aos="fade-up" data-aos-easing="ease-in-out">
+                <p className="text-xl font-extrabold pb-8 tracking-wide">
                     Hi I&#39;m Sarah. 
                     <br />
                 </p>
             </section>
-            <section data-aos="fade-up">
+            <section data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-delay="100">
                 <p>
                     <br />
-                    Iteration 
+                    <p className="font-extrabold tracking-wide"> Iterative • Education </p>
+                    <br />
+                    <p>Growing up in America, I was able to pursue a Bachelor&#39;s Degree in Communication and French. </p>
+                </p>
+            </section>
+            <section data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-delay="100">
+                <p>
+                    <br />
+                    <p className="font-extrabold tracking-wide"> Debugging • Life </p>
+                    <br />
+                    <p>Growing up in America, I was able to pursue a Bachelor&#39;s Degree in Communication and French. </p>
+                </p>
+            </section>
+            <section data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-delay="100">
+                <p>
+                    <br />
+                    <p className="font-extrabold tracking-wide"> Refactoring • My Expertise </p>
+                    <br />
+                    <p>Growing up in America, I was able to pursue a Bachelor&#39;s Degree in Communication and French. </p>
+                </p>
+            </section>
+            <section data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-delay="100">
+                <p>
+                    <br />
+                    <p className="font-extrabold tracking-wide"> Optimizing • The Tech </p>
                     <br />
                     <p>Growing up in America, I was able to pursue a Bachelor&#39;s Degree in Communication and French. </p>
                 </p>

@@ -1,13 +1,9 @@
-import '../fonts/Anabele.otf';
-import '../fonts/Anabele.ttf';
-import '../fonts/KEROZENE.otf';
-import '../fonts/Ogg-Italic.otf';
-import '../fonts/Ogg-Roman.otf';
+import React from "react";
 import { NavLink } from "react-router-dom";
 // import { useLocation } from 'react-router-dom';
 
 
-export function Header() {
+export function Footer() {
     // const location = useLocation();
     // if (location.pathname !== '/') {
     //     return null; // Hide the header on routes other than "/"

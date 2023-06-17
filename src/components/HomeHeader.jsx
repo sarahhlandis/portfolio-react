@@ -9,18 +9,6 @@ import { Header } from './header';
 
 // HEADER COMPONENT FOR WHEN ON ALL PAGES EXCEPT HOME
 
-// export function HomeHeader() {
-//     return (
-//         <nav className="px-4 py-6 flex flex-col md:flex-row items-center justify-between">
-//           <div className="flex items-center mb-4 md:mb-0">
-//             <h1 className="mr-2 text-xl font-Anabele">sarah landis</h1>
-//           </div>
-//           {/* <ul className="flex px-4 py-6 text-center space-x-10 text-xl font-Anabele">
-//             <HomeNav />
-//           </ul> */}
-//         </nav>
-//       );
-//     }
 export function HomeHeader() {
     const location = useLocation();
   
@@ -40,3 +28,17 @@ export function HomeHeader() {
       </>
     );
 }
+
+
+// export function HomeHeader() {
+//     return (
+//         <nav className="px-4 py-6 flex flex-col md:flex-row items-center justify-between">
+//           <div className="flex items-center mb-4 md:mb-0">
+//             <h1 className="mr-2 text-xl font-Anabele">sarah landis</h1>
+//           </div>
+//           {/* <ul className="flex px-4 py-6 text-center space-x-10 text-xl font-Anabele">
+//             <HomeNav />
+//           </ul> */}
+//         </nav>
+//       );
+//     }
