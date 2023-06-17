@@ -23,7 +23,7 @@ useEffect(() => {
   return (
     <div>
       <Header />
-      <ul className="font-Anabele text-9xl text-right bg-orange-100 pb-8">
+      <ul className="font-Anabele text-9xl text-right bg-orange-100 pb-8">  
         <NavigationLinks />
       </ul>
       <section className="font-poppins font-extralight text-left text-2xl pt-5">
