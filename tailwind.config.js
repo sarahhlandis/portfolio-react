@@ -6,6 +6,17 @@ export default {
       fontFamily: {
         'poppins': ['Poppins', 'sans-serif'],
       },
+      keyframes: {
+        wiggle: {
+          '0%, 100%': {
+            transform: 'translateY(-15%)' },
+          '50%': {
+            transform: 'translateY(0)' },
+        }
+      },
+      animation: {
+        wiggle: 'wiggle 1s ease-in-out infinite',
+      } 
     },
   },
   plugins: [],

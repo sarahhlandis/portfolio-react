@@ -3,23 +3,38 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import StackGrid from "../components/StackGrid";
 import biopic from "../assets/biopic.jpeg";
+import { UpArrow } from "../assets/UpArrow";
+import resumePDF from "../assets/Sarah_Landis_Resume.pdf";
+import { DownArrow } from "../assets/DownArrow";
 
-export function About(){
+export function About() {
     useEffect(() => {
-        AOS.init({
-          duration: 2000
-        });
-      }, []);
+      AOS.init({
+        duration: 2000
+      });
+    
+      return () => {
+        AOS.refresh();
+      };
+    }, []);
+
     
     return(
     <div id="aos-container" className="flex">
         <div className="text-left font-poppins font-extralight pt-10 flex-col w-1/2 scroll-hidden">
             <section data-aos="fade-right" data-aos-easing="ease-in-out">
                 <p className="text-xl font-extrabold italic pb-8 tracking-wide">
-                    Hi I&#39;m Sarah. 
+                    Hello there, I&#39;m Sarah. <br />So nice to meet you!
                     <br />
                 </p>
             </section>
+            <p data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-delay="100"
+            className="pb-10">
+                If you want to know more about me, keep reading. 
+                <br/>
+                <br /> 
+                If you want to stick to what you know and just check out my stack and resumé, <a className="relative inline-block bg-gradient-to-t from-sky-300 from-35% to-transparent to-40% hover:bg-sky-300 transition duration-100 ease-in-out" href="#tech">click me!</a>
+            </p>
             <section data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-delay="100">
                 <p>
                     <br />
@@ -112,11 +127,14 @@ export function About(){
                     </p>
                 </p>
             </section>
-            <section data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-delay="100">
+            <section id="tech" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-delay="100">
                 <p>
                     <br />
                     <br />
                     <p className="font-bold tracking-wide text-lg pt-10"> Optimizing • The Tech </p>
+                    <br />
+                    <p className="font-semibold tracking-wide"> ./Front End</p>
+                    <p className="font-semibold tracking-wide"> ./Back End</p>
                     <br />
                     <p>While my passion predominantly lies in frontend work, I recognized the importance of being well-versed in full stack web development. This motivated me to broaden my technical expertise and embrace the challenges of both client and server-side functionality. 
                     <br />
@@ -129,12 +147,23 @@ export function About(){
                     </div>
                 </p>
             </section>
+            <div className="flex justify-center text-xl font-semibold pt-10" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-delay="100">
+                <a href={resumePDF} target="_blank" rel="noopener noreferrer">
+                    <button id="pdf" className="bg-sky-300 hover:bg-sky-400 hover:scale-105 ease-out duration-200 text-white font-poppins py-2 px-4 rounded w-96 h-16 mb-10">
+                    View Resumé
+                    </button>
+                </a>
+            </div>
+            <div className="flex justify-center text-xs pt-10 animate-bounce" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-delay="300">
+                <a href="#">
+                    <UpArrow />
+                </a>
+            </div>
         </div>
-        <div className="w-1/2" data-aos="fade-in" data-aos-easing="ease-in" data-aos-duration="2000">
+        <div className="w-1/2" data-aos="fade-in" data-aos-easing="ease-in" data-aos-duration="1700">
             <img src={biopic} alt="bio photo" className="sticky top-0 pl-10" />
         </div>
     </div>
 
-    );
-
+);
 }
