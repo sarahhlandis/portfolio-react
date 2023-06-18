@@ -120,7 +120,7 @@ function StackGrid() {
   return (
     <div className="text-5xl grid grid-cols-5 gap-4 ">
       {iconComponents.map(({ component, label }) => (
-        <div key={label} className="flex flex-col items-center hover:scale-125 ease-out duration-300">
+        <div key={label} className="flex flex-col items-center hover:scale-125 ease-out duration-200">
           {component}
           <p className="text-xs text-orange-300">{label}</p>
         </div>

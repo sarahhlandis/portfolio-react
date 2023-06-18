@@ -9,7 +9,7 @@ export function HomeNav() {
     const notHomePage = location.pathname !== "/";
 
     const linkStyle = notHomePage
-    ? "relative inline-block bg-gradient-to-t from-orange-300 from-35% to-transparent to-40% hover:bg-orange-300 transition duration-100 ease-in-out"
+    ? "relative inline-block bg-gradient-to-t from-orange-400 from-35% to-transparent to-40% hover:bg-orange-400 transition duration-100 ease-in-out"
     : undefined;
   
     return (

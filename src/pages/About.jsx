@@ -1,29 +1,8 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPython, faReact} from '@fortawesome/free-brands-svg-icons'
-import JavaScriptIcon from "../assets/JavaScriptIcon";
-import HTMLIcon from "../assets/HTMLIcon";
-import JSXIcon from "../assets/JSXIcon";
-import BashIcon from "../assets/BashIcon";
-import MarkdownIcon from "../assets/MarkdownIcon";
-import FlaskIcon from "../assets/FlaskIcon";
-import ExpressJSIcon from "../assets/ExpressJSIcon";
-import NextJSIcon from "../assets/NextJSIcon";
-import PytestIcon from "../assets/PytestIcon";
-import JestIcon from "../assets/JestIcon";
-import NodeJSIcon from "../assets/NodeJSIcon";
-import VSCodeIcon from "../assets/VSCodeIcon";
-import PSQLIcon from "../assets/PSQLIcon";
-import MongoDBIcon from "../assets/MongoDBIcon";
-import CSSIcon from "../assets/CSSIcon";
-import TailwindIcon from "../assets/TailwindIcon";
-import SCSSIcon from "../assets/SCSSIcon";
-import InsomniaIcon from "../assets/InsomniaIcon";
-import GitIcon from "../assets/GitIcon";
-import FigmaIcon from "../assets/FigmaIcon";
 import StackGrid from "../components/StackGrid";
+import biopic from "../assets/biopic.jpeg";
 
 export function About(){
     useEffect(() => {
@@ -33,8 +12,8 @@ export function About(){
       }, []);
     
     return(
-    <div id="aos-container">
-        <div className="text-left font-poppins font-extralight pt-10 flex-col w-1/2">
+    <div id="aos-container" className="flex">
+        <div className="text-left font-poppins font-extralight pt-10 flex-col w-1/2 scroll-hidden">
             <section data-aos="fade-right" data-aos-easing="ease-in-out">
                 <p className="text-xl font-extrabold italic pb-8 tracking-wide">
                     Hi I&#39;m Sarah. 
@@ -137,7 +116,7 @@ export function About(){
                 <p>
                     <br />
                     <br />
-                    <p className="font-bold tracking-wide text-lg pt-10"> Optimization • The Tech </p>
+                    <p className="font-bold tracking-wide text-lg pt-10"> Optimizing • The Tech </p>
                     <br />
                     <p>While my passion predominantly lies in frontend work, I recognized the importance of being well-versed in full stack web development. This motivated me to broaden my technical expertise and embrace the challenges of both client and server-side functionality. 
                     <br />
@@ -150,6 +129,9 @@ export function About(){
                     </div>
                 </p>
             </section>
+        </div>
+        <div className="w-1/2" data-aos="fade-in" data-aos-easing="ease-in" data-aos-duration="2000">
+            <img src={biopic} alt="bio photo" className="sticky top-0 pl-10" />
         </div>
     </div>
 
