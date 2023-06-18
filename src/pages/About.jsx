@@ -3,6 +3,27 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPython, faReact} from '@fortawesome/free-brands-svg-icons'
+import JavaScriptIcon from "../assets/JavaScriptIcon";
+import HTMLIcon from "../assets/HTMLIcon";
+import JSXIcon from "../assets/JSXIcon";
+import BashIcon from "../assets/BashIcon";
+import MarkdownIcon from "../assets/MarkdownIcon";
+import FlaskIcon from "../assets/FlaskIcon";
+import ExpressJSIcon from "../assets/ExpressJSIcon";
+import NextJSIcon from "../assets/NextJSIcon";
+import PytestIcon from "../assets/PytestIcon";
+import JestIcon from "../assets/JestIcon";
+import NodeJSIcon from "../assets/NodeJSIcon";
+import VSCodeIcon from "../assets/VSCodeIcon";
+import PSQLIcon from "../assets/PSQLIcon";
+import MongoDBIcon from "../assets/MongoDBIcon";
+import CSSIcon from "../assets/CSSIcon";
+import TailwindIcon from "../assets/TailwindIcon";
+import SCSSIcon from "../assets/SCSSIcon";
+import InsomniaIcon from "../assets/InsomniaIcon";
+import GitIcon from "../assets/GitIcon";
+import FigmaIcon from "../assets/FigmaIcon";
+import StackGrid from "../components/StackGrid";
 
 export function About(){
     useEffect(() => {
@@ -124,23 +145,9 @@ export function About(){
                     Take a look at my diverse tech sandbox below:</p>
                     <br />
                     <br />
-                    <div className="text-5xl grid grid-cols-5 gap-4">
-                        <div className="flex flex-col items-center">
-                            <FontAwesomeIcon icon={faPython} style={{ color: "#fdba74" }} />
-                            <p className="text-xs">Python</p>
-                        </div>
-                        <div className="flex flex-col items-center">
-                            <FontAwesomeIcon icon={faReact} style={{ color: "#fdba74" }} />
-                            <p className="text-xs">React</p>
-                        </div>
-                        {/* <div className="flex flex-col items-center">
-                            <FontAwesomeIcon icon={faPython} style={{ color: "#fdba74" }} />
-                            <p className="text-xs">Python</p>
-                        </div> */}
-                        </div>
-
-
-
+                    <div>
+                        <StackGrid />
+                    </div>
                 </p>
             </section>
         </div>
