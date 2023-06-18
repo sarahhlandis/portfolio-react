@@ -4,7 +4,7 @@ import "aos/dist/aos.css";
 import StackGrid from "../components/StackGrid";
 import biopic from "../assets/biopic.jpeg";
 import { UpArrow } from "../assets/UpArrow";
-import resumePDF from "../assets/Sarah_Landis_Resume.pdf";
+import resumePDF from "../assets/Sarah_Landis_Resume.pdf"; 
 import { DownArrow } from "../assets/DownArrow";
 
 export function About() {
@@ -23,8 +23,10 @@ export function About() {
     <div id="aos-container" className="flex">
         <div className="text-left font-poppins font-extralight pt-10 flex-col w-1/2 scroll-hidden">
             <section data-aos="fade-right" data-aos-easing="ease-in-out">
-                <p className="text-xl font-extrabold italic pb-8 tracking-wide">
-                    Hello there, I&#39;m Sarah. <br />So nice to meet you!
+                <p className="text-4xl tracking-wide italic">
+                    Hello there, I&#39;m Sarah. 
+                    <br />
+                <p className="font-semibold  text-2xl">So nice to meet you!</p>
                     <br />
                 </p>
             </section>
@@ -33,7 +35,7 @@ export function About() {
                 If you want to know more about me, keep reading. 
                 <br/>
                 <br /> 
-                If you want to stick to what you know and just check out my stack and resumé, <a className="relative inline-block bg-gradient-to-t from-sky-300 from-35% to-transparent to-40% hover:bg-sky-300 transition duration-100 ease-in-out" href="#tech">click me!</a>
+                If you want to stick to what you know and just check out my stack & resumé, <a className="relative inline-block bg-gradient-to-t from-sky-300 from-35% to-transparent to-40% hover:bg-sky-300 transition duration-100 ease-in-out" href="#tech">click me!</a>
             </p>
             <section data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-delay="100">
                 <p>
@@ -161,7 +163,8 @@ export function About() {
             </div>
         </div>
         <div className="w-1/2" data-aos="fade-in" data-aos-easing="ease-in" data-aos-duration="1700">
-            <img src={biopic} alt="bio photo" className="sticky top-0 pl-10" />
+            <img src={biopic} alt="bio photo" className="sticky top-0 pl-10 " /> 
+            {/* use this to get whole photo height to show and keep aspect ratio: max-h-screen max-w-full */}
         </div>
     </div>
 
