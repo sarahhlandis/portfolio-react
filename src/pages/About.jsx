@@ -35,7 +35,7 @@ export function About() {
                 If you want to know more about me, keep reading. 
                 <br/>
                 <br /> 
-                If you want to stick to what you know and just check out my stack & resumé, <a className="relative inline-block bg-gradient-to-t from-sky-300 from-35% to-transparent to-40% hover:bg-sky-300 transition duration-100 ease-in-out" href="#tech">click me!</a>
+                Or, stick with what you know and just check out <a className="relative inline-block bg-gradient-to-t from-sky-300 from-35% to-transparent to-40% hover:bg-sky-300 transition duration-100 ease-in-out" href="#tech">my stack & resumé.</a>
             </p>
             <section data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-delay="100">
                 <p>
@@ -162,7 +162,7 @@ export function About() {
                 </a>
             </div>
         </div>
-        <div className="w-1/2" data-aos="fade-in" data-aos-easing="ease-in" data-aos-duration="1700">
+        <div className="w-1/2 pt-10" data-aos="fade-in" data-aos-easing="ease-in" data-aos-duration="1700">
             <img src={biopic} alt="bio photo" className="sticky top-0 pl-10 " /> 
             {/* use this to get whole photo height to show and keep aspect ratio: max-h-screen max-w-full */}
         </div>
