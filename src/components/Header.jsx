@@ -20,7 +20,7 @@ export function Header() {
         <div className="flex items-center align-middle pb-5">
             <NavLink
                 to="/"
-                className="text-6xl pt-5 font-Anabele align-middle hover:scale-105 transition-transform duration-300"
+                className="text-6xl pt-5 font-Anabele text-semibold align-middle hover:scale-105 transition-transform duration-300"
             >
                 S.
             </NavLink>
