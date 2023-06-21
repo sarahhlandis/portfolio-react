@@ -1,8 +1,10 @@
 import React, {useEffect} from "react";
 import AOS from "aos";
 import { ColorRise } from "../components/ColorRise";
+import ProjectList from "../components/ProjectList";
 
 export function Projects() {
+
     useEffect(() => {
       AOS.init({
         duration: 2000
@@ -33,9 +35,10 @@ export function Projects() {
                 </section>
             </div>
             <div className="text-left font-Anabele text-bold pt-10 flex-col w-3/5 scroll-hidden">
-                <section className="flex flex-col text-8xl tracking-wide mb-4" 
+                <section 
+                className="flex flex-col text-8xl tracking-wide mb-4" 
                 data-aos="fade-left" data-aos-delay="500" data-aos-easing="ease-in-out">
-                    <a href='#' className="">
+                    {/* <a href='#' className="">
                     MOONSWELL
                     </a>
                     <a href='#'>
@@ -46,7 +49,8 @@ export function Projects() {
                     </a>
                     <a href='#'>
                     SCRIBBLE
-                    </a>
+                    </a> */}
+                   <ProjectList />
                 </section>
             </div>
 
@@ -54,3 +58,4 @@ export function Projects() {
     </div>
     );
 }
+  
