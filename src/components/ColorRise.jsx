@@ -27,6 +27,7 @@ export function ColorRise() {
   return (
       <div
         className="absolute inset-0 bg-orange-50 z-50"
+        // check animate-curtain in a different color to see which is better
         style={{ transform: "translateY(0) scaleY(1)", opacity:1}}
         data-aos="fade-up"
         data-aos-easing="ease-in"

@@ -35,7 +35,8 @@ export function About() {
         </div>
         <div id="aos-container" className="flex">
             <div className="text-left font-poppins font-extralight pt-10 flex-col w-1/2 scroll-hidden">
-                <section data-aos="fade-right" data-aos-delay="500" data-aos-easing="ease-in-out">
+                {/* <section data-aos="fade-right" data-aos-delay="500" data-aos-easing="ease-in-out"> */}
+                <section>
                     <p className="text-4xl tracking-wide italic">
                         Hello there, I&#39;m Sarah. 
                         <br />
@@ -43,8 +44,8 @@ export function About() {
                         <br />
                     </p>
                 </section>
-                <p data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-delay="100"
-                className="pb-10">
+                {/* <p data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-delay="100" */}
+                <p className="pb-10">
                     If you want to know more about me, keep reading. 
                     <br/>
                     <br /> 

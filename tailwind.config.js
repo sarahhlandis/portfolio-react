@@ -15,20 +15,47 @@ export default {
         },
         rise: {
           '0%': {
-            transform: 'translateY(100%)'},
-            // transform: 'translate3d(0px, 100vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg)',
-            // transformStyle: 'preserve-3d',
-            opacity: 0.75},
+            transform: 'translateY(150%)'},
+            opacity: 1,
           '50%': {
-              transform: 'translateY(50%)',
-              // opacity: 1},
+              transform: 'translateY(150%)',
           },
-          '80%': {
+          '60%': {
+            transform: 'translateY(150%)',
+          },
+          '75%': {
+            transform: 'translateY(100%)',
+          },
+          '90%': {
+            transform: 'translateY(90%)',
+          },
+          '95%': {
             transform: 'translateY(50%)',
-            // opacity: 1},
+          },
           '100%': {
-            // transform: 'translate3d(0px, -2vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg)',
             transform: 'translateY(0%)',
+          },
+        },
+        curtain: {
+          '0%': {
+            transform: 'translateY(0%)'},
+            opacity: 1,
+          '35%': {
+              transform: 'translateY(0%)'},
+          '50%': {
+              transform: 'translateY(0%)',
+          },
+          // '70%': {
+          //   transform: 'translateY(-30%)',
+          // },
+          '80%': {
+            transform: 'translateY(-50%)',
+          },
+          '90%': {
+            transform: 'translateY(-85%)',
+          },
+          '100%': {
+            transform: 'translateY(-100%)',
           },
         },
           slowFastAnimation: {
@@ -50,6 +77,7 @@ export default {
         wiggle: 'wiggle 1s ease-in-out infinite',
         rise: 'rise 1.5s ease-in',
         slowFastAnimation: "slowFastAnimation 1.5s ease-in-out",
+        curtain: 'curtain 1.5s ease-in',
       } 
     },
   },

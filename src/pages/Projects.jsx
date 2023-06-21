@@ -16,16 +16,18 @@ export function Projects() {
     }, []);
     
     return(
-    <div>
+    <div className="bg-orange-100">
         <ColorRise />
         <div id="aos-container" className="flex">
             <div className="text-left font-poppins font-extralight pt-10 flex flex-col w-2/5 scroll-hidden justify-end">
-                <section data-aos="fade-right" data-aos-delay="500" data-aos-easing="ease-in-out">
-                    <p className="text-5xl tracking-wide">
+                <section>
+                    <p className="text-5xl tracking-wide" 
+                    data-aos="fade-right" data-aos-delay="150" data-aos-duration="3000">
                         showcase
                         <br />
                     </p>
-                    <p className="text-xl">
+                    <p className="text-xl"
+                    data-aos="fade-up" data-aos-delay="300" data-aos-duration="3000">
                         Welcome to my project gallery.
                         <br/>
                         Featuring my best and most recent work.
