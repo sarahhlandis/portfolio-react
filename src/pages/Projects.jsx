@@ -1,13 +1,22 @@
-import React from "react";
+import React, {useEffect} from "react";
+import AOS from "aos";
+import { ColorRise } from "../components/ColorRise";
 
-export function Projects(){
+export function Projects() {
+    useEffect(() => {
+      AOS.init({
+        duration: 2000
+      });
+    
+      return () => {
+        AOS.refresh();
+      };
+    }, []);
+     
+    
     return(
     <div>
-        {/* <ul className="flex px-4 py-6 text-center space-x-10 text-xl font-Anabele">
-            <HomeNav />
-        </ul> */}
         content here
     </div>
     );
-
 }

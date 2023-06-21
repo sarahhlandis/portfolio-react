@@ -35,9 +35,11 @@ export function Connect() {
 
   return (
     <div className='flex'>
-      <div className='w-1/2 font-poppins font-extralight text-xl justify-center pt-20'>
+      <div 
+      data-aos="fade-right" data-aos-easing="ease-in-out"
+      className='w-1/2 font-poppins font-extralight text-xl justify-center pt-20'>
         <section className="text-center">
-          <p className='font-bold italic text-4xl tracking-wide'>Let's talk! </p>
+          <p className='font-bold italic text-4xl tracking-wide'>Let&#39;s talk! </p>
           <p>
             <br/>Send me a message via the form, 
             <br />flick me an email,
@@ -76,7 +78,9 @@ export function Connect() {
         </section>
       </div>
       {!emailSent ? (
-        <div className="w-1/2 mx-auto font-poppins pt-16 pl-10">
+        <div 
+        data-aos="fade-left" data-aos-easing="ease-in-out"
+        className="w-1/2 mx-auto font-poppins pt-16 pl-10">
           <form
             ref={form}
             onSubmit={sendEmail}
