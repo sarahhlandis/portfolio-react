@@ -1,26 +1,26 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPython, faReact } from '@fortawesome/free-brands-svg-icons';
-import JavaScriptIcon from '../assets/JavaScriptIcon';
-import HTMLIcon from '../assets/HTMLIcon';
-import JSXIcon from '../assets/JSXIcon';
-import BashIcon from '../assets/BashIcon';
-import MarkdownIcon from '../assets/MarkdownIcon';
-import FlaskIcon from '../assets/FlaskIcon';
-import ExpressJSIcon from '../assets/ExpressJSIcon';
-import NextJSIcon from '../assets/NextJSIcon';
-import PytestIcon from '../assets/PytestIcon';
-import JestIcon from '../assets/JestIcon';
-import NodeJSIcon from '../assets/NodeJSIcon';
-import VSCodeIcon from '../assets/VSCodeIcon';
-import PSQLIcon from '../assets/PSQLIcon';
-import MongoDBIcon from '../assets/MongoDBIcon';
-import CSSIcon from '../assets/CSSIcon';
-import SCSSIcon from '../assets/SCSSIcon';
-import TailwindIcon from '../assets/TailwindIcon';
-import GitIcon from '../assets/GitIcon';
-import InsomniaIcon from '../assets/InsomniaIcon';
-import FigmaIcon from '../assets/FigmaIcon';
+import JavaScriptIcon from '../assets/icons/JavaScriptIcon';
+import HTMLIcon from '../assets/icons/HTMLIcon';
+import JSXIcon from '../assets/icons/JSXIcon';
+import BashIcon from '../assets/icons/BashIcon';
+import MarkdownIcon from '../assets/icons/MarkdownIcon';
+import FlaskIcon from '../assets/icons/FlaskIcon';
+import ExpressJSIcon from '../assets/icons/ExpressJSIcon';
+import NextJSIcon from '../assets/icons/NextJSIcon';
+import PytestIcon from '../assets/icons/PytestIcon';
+import JestIcon from '../assets/icons/JestIcon';
+import NodeJSIcon from '../assets/icons/NodeJSIcon';
+import VSCodeIcon from '../assets/icons/VSCodeIcon';
+import PSQLIcon from '../assets/icons/PSQLIcon';
+import MongoDBIcon from '../assets/icons/MongoDBIcon';
+import CSSIcon from '../assets/icons/CSSIcon';
+import SCSSIcon from '../assets/icons/SCSSIcon';
+import TailwindIcon from '../assets/icons/TailwindIcon';
+import GitIcon from '../assets/icons/GitIcon';
+import InsomniaIcon from '../assets/icons/InsomniaIcon';
+import FigmaIcon from '../assets/icons/FigmaIcon';
  
 
 

@@ -2,10 +2,9 @@ import React, { useEffect} from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import StackGrid from "../components/StackGrid";
-import biopic from "../assets/biopic.jpeg";
+import biopic from "../assets/images/biopic.jpeg";
 import { UpArrow } from "../assets/UpArrow";
 import resumePDF from "../assets/Sarah_Landis_Resume.pdf"; 
-import { DownArrow } from "../assets/DownArrow";
 import { ColorRise } from "../components/ColorRise";
 
 export function About() {

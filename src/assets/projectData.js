@@ -1,3 +1,5 @@
+import moonswell from '../assets/images/moonswell.png'
+
 const projects = [
     { id: 1, title: "Portfolio Site v.1",
     date: "November 2022",
@@ -37,9 +39,9 @@ const projects = [
     { id: 5, 
     title: "Moonswell",
     date: "May 2023",
-    image: ``,
+    image: `${moonswell}`,
     abstract: "Soft competitor to WillyWeather",
-    description: "A dynamic site built with React as part of a collaborative Hackathon with CoderAcademy. Working with a team of 3 others, we created this fully functional SPA application in a week. The aim was to dig into some fun with React and learn along the way. Our team utilized Vite and Tailwind and put out a fair few git branching fires. My parts of the site included the homepage and reusable navbar components.",
+    description: "A dynamic site built with React as part of a collaborative Hackathon with CoderAcademy. Working with a team of 3 others, we created this fully functional SPA application in a week. The aim was to dig into some fun with React and learn along the way. Our team utilized Vite and Tailwind and put out a fair few git branching fires. My contributions to the site included the homepage, header & footer, and reusable navbar components.",
     repo: "https://github.com/reactronauts/untitled-tide-app",
     live: "https://moonswell.netlify.app/",
     },

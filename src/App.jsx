@@ -7,6 +7,7 @@ import { Projects } from './pages/Projects';
 import { Connect } from './pages/Connect';
 import { HomeHeader } from './components/HomeHeader';
 import { Footer } from './components/footer';
+import SoloProject from './components/SoloProject';
 
 
 function App() {  
@@ -22,6 +23,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/projects/:title" element={<SoloProject />} />
           <Route path="/connect" element={<Connect />} />
         </Routes>
         <Footer />

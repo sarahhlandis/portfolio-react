@@ -2,8 +2,8 @@ import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithubSquare } from '@fortawesome/free-brands-svg-icons';
-import EmailIcon from '../assets/EmailIcon';
-import MobileIcon from '../assets/MobileIcon';
+import EmailIcon from '../assets/icons/EmailIcon';
+import MobileIcon from '../assets/icons/MobileIcon';
 
 export function Connect() {
   
