@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import projects from "../assets/projectData";
 import { LeftArrow } from "../assets/nav_arrows/LeftArrow";
 import { RightArrow } from "../assets/nav_arrows/RightArrow";
+import AOS from "aos";
 
 function SoloProject() {
   const { title } = useParams();
@@ -21,8 +22,10 @@ function SoloProject() {
   const prevProject = projects[prevIndex];
   const nextProject = projects[nextIndex];
 
+
   return (
-    <div className="flex">
+    <div className="flex"
+    data-aos="fade-in" data-aos-easing="ease-in" data-aos-duration="1700">
       <div className="flex flex-col font-poppins font-extralight pt-10 w-4/12 pr-8">
         <div className="text-5xl italic">{project.title}</div>
         <p className="text-2xl">{project.abstract}</p>
@@ -69,10 +72,10 @@ function SoloProject() {
                 </Link>
                 )}
             </div>
-            <div>
+            <p className="hover:scale-125 ease-out duration-200"> 
                 <br />
                 <Link to="/projects">back to all</Link>
-            </div>
+            </p>
             <div className="hover:scale-125 ease-out duration-200"> 
                 {/* if wanting the buttons to stop at first and last, uncomment below */}
                 {/* {currentIndex < projects.length - 1 &&  ( */}
@@ -97,3 +100,4 @@ function SoloProject() {
 }
 
 export default SoloProject;
+
