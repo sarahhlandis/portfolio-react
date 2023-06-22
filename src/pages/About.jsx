@@ -1,6 +1,4 @@
 import React, { useEffect} from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
 import StackGrid from "/src/components/StackGrid";
 import biopic from "/src/assets/images/biopic.jpeg";
 import { UpArrow } from "/src/assets/nav_arrows/UpArrow";
@@ -8,17 +6,8 @@ import resumePDF from "/src/assets/Sarah_Landis_Resume.pdf";
 import { ColorRise } from "/src/components/ColorRise";
 
 export function About() {
-    // useEffect(() => {
-    //   AOS.init({
-    //     duration: 2000
-    //   });
-    
-    //   return () => {
-    //     AOS.refresh();
-    //   };
-    // }, []);
      
-    
+
     return(
     <div>
         <ColorRise />
@@ -33,7 +22,7 @@ export function About() {
                 </div>
             </div>
         </div>
-        <div id="aos-container" className="flex">
+        <div id="aos-container" className="flex overflow-visible">
             <div className="text-left font-poppins font-extralight pt-10 flex-col w-1/2 scroll-hidden">
                 {/* <section data-aos="fade-right" data-aos-delay="500" data-aos-easing="ease-in-out"> */}
                 <section>
@@ -178,7 +167,7 @@ export function About() {
                 </div>
             </div>
             <div className="w-1/2 pt-10" data-aos="fade-in" data-aos-easing="ease-in" data-aos-duration="1700">
-                <img src={biopic} alt="bio photo" className="sticky top-0 pl-10 " /> 
+                <img src={biopic} alt="bio photo" className="sticky top-0 pl-10" /> 
                 {/* use this to get whole photo height to show and keep aspect ratio: max-h-screen max-w-full */}
             </div>
         </div>

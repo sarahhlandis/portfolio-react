@@ -5,18 +5,9 @@ import { faLinkedin, faGithubSquare } from '@fortawesome/free-brands-svg-icons';
 import EmailIcon from '/src/assets/icons/EmailIcon';
 import MobileIcon from '/src/assets/icons/MobileIcon';
 import { ColorRise } from '/src/components/ColorRise';
-import AOS from 'aos';
 
 export function Connect() {
-  // useEffect(() => {
-  //   AOS.init({
-  //     duration: 2000
-  //   });
-  
-  //   return () => {
-  //     AOS.refresh();
-  //   };
-  // }, []);
+
 
   const form = useRef();
   const [emailSent, setEmailSent] = useState(false);

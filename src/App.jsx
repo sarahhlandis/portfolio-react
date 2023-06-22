@@ -5,9 +5,8 @@ import { About } from '/src/pages/About';
 import { Home } from '/src/pages/Home';
 import { Projects } from '/src/pages/Projects';
 import { Connect } from '/src/pages/Connect';
-import { HomeHeader } from '/src/components/HomeHeader';
-import { Footer } from '/src/components/Footer';
 import { SoloProject } from '/src/pages/SoloProject';
+import { PageLayout } from '/src/pages/PageLayout';
 import AOS from 'aos';
 
 
@@ -26,16 +25,17 @@ function App() {
 
   return (
     <BrowserRouter>
-        {location.pathname !== '/' ? <HomeHeader /> : ""}
+        {/* {location.pathname !== '/' ? <HomeHeader /> : ""} */}
         {/* <Header /> */}
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/projects/:title" element={<SoloProject />} />
-          <Route path="/connect" element={<Connect />} />
+          <Route path="/" element={<Home />}/>
+          <Route element={<PageLayout />}>
+            <Route path="/about" element={<About />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/projects/:title" element={<SoloProject />} />
+            <Route path="/connect" element={<Connect />} />
+          </Route>
         </Routes>
-        <Footer />
     </BrowserRouter>
   );
 }

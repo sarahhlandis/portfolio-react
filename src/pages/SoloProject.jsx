@@ -3,19 +3,9 @@ import { useParams, Link } from "react-router-dom";
 import projects from "/src/assets/projectData";
 import { LeftArrow } from "/src/assets/nav_arrows/LeftArrow";
 import { RightArrow } from "/src/assets/nav_arrows/RightArrow";
-import AOS from "aos";
 
 export function SoloProject() {
 
-  // useEffect(() => {
-  //   AOS.init({
-  //     duration: 2000
-  //   });
-  
-  //   return () => {
-  //     AOS.refresh();
-  //   };
-  // }, []);
 
   const { title } = useParams();
   const currentIndex = projects.findIndex(
