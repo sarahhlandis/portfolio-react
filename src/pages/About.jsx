@@ -3,7 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import StackGrid from "../components/StackGrid";
 import biopic from "../assets/images/biopic.jpeg";
-import { UpArrow } from "../assets/UpArrow";
+import { UpArrow } from "../assets/nav_arrows/UpArrow";
 import resumePDF from "../assets/Sarah_Landis_Resume.pdf"; 
 import { ColorRise } from "../components/ColorRise";
 

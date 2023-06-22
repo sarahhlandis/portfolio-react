@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithubSquare } from '@fortawesome/free-brands-svg-icons';
 import EmailIcon from '../assets/icons/EmailIcon';
 import MobileIcon from '../assets/icons/MobileIcon';
+import { ColorRise } from '../components/ColorRise';
 
 export function Connect() {
   
@@ -34,7 +35,8 @@ export function Connect() {
   };
 
   return (
-    <div className='flex'>
+    <div className="flex">
+      <ColorRise />
       <div 
       data-aos="fade-right" data-aos-easing="ease-in-out"
       className='w-1/2 font-poppins font-extralight text-xl justify-center pt-20'>
