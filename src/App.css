@@ -10,66 +10,30 @@
 
 @font-face {
   font-family: 'Anabele';
-  src: url('./src/fonts/Anabele.otf') format('opentype'),
-       url('./src/fonts/Anabele.ttf') format('truetype');
+  src: url('/src/fonts/Anabele.otf') format('opentype'),
+       url('/src/fonts/Anabele.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'KEROZENE';
-  src: url('./src/fonts/KEROZENE.otf') format('opentype');
+  src: url('/src/fonts/KEROZENE.otf') format('opentype');
 }
 
 @font-face {
   font-family: 'Ogg';
-  src: url('./src/fonts/Ogg-Italic.otf') format('opentype'),
-       url('./src/fonts/Ogg-Roman.otf') format('opentype');
+  src: url('/src/fonts/Ogg-Italic.otf') format('opentype'),
+       url('/src/fonts/Ogg-Roman.otf') format('opentype');
 }
 
 @font-face {
   font-family: 'NeueMontreal';
-  src: url('./src/fonts/NeueMontreal-Light.otf') format('opentype'),
-       url('./src/fonts/NeueMontreal-Bold.otf') format('opentype');
+  src: url('/src/fonts/NeueMontreal-Light.otf') format('opentype'),
+       url('/src/fonts/NeueMontreal-Bold.otf') format('opentype');
 }
 
 @font-face {
   font-family: 'Poppins';
-  src: url('./src/fonts/Poppins-Bold.ttf') format('truetype'); 
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+  src: url('/src/fonts/Poppins-Bold.ttf') format('truetype'); 
 }
 
 .font-Anabele {
