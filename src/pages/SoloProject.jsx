@@ -1,18 +1,31 @@
 import React, { useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
-import projects from "../assets/projectData";
-import { LeftArrow } from "../assets/nav_arrows/LeftArrow";
-import { RightArrow } from "../assets/nav_arrows/RightArrow";
+import projects from "/src/assets/projectData";
+import { LeftArrow } from "/src/assets/nav_arrows/LeftArrow";
+import { RightArrow } from "/src/assets/nav_arrows/RightArrow";
 import AOS from "aos";
 
-function SoloProject() {
+export function SoloProject() {
+
+  // useEffect(() => {
+  //   AOS.init({
+  //     duration: 2000
+  //   });
+  
+  //   return () => {
+  //     AOS.refresh();
+  //   };
+  // }, []);
+
   const { title } = useParams();
   const currentIndex = projects.findIndex(
     (project) => project.title.toLowerCase() === title.toLowerCase()
   );
 
   if (currentIndex === -1) {
-    return <div>Project not found</div>;
+    return <div className="font-poppins text-2xl">
+      Project not found
+    </div>;
   }
 
   const prevIndex = (currentIndex - 1 + projects.length) % projects.length;
@@ -98,6 +111,4 @@ function SoloProject() {
     </div>
   );
 }
-
-export default SoloProject;
 

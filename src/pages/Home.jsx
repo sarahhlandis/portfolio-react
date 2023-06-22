@@ -1,6 +1,6 @@
 // import { useState, useEffect } from 'react';
-import { NavigationLinks } from '../components/NavLinks';
-import { Header } from '../components/header';
+import { NavigationLinks } from '/src/components/NavLinks';
+import { Header } from '/src/components/header';
 import { useEffect } from 'react';
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -12,13 +12,13 @@ export function Home() {
 //     setIsVisible(true);
 //   }, []);
 
-useEffect(() => {
-    AOS.init({
-      duration: 2000,
-      once: true, // animation occurs only once
-      container: "#aos-container", 
-    });
-  }, []);
+// useEffect(() => {
+//     AOS.init({
+//       duration: 2000,
+//       once: true, // animation occurs only once
+//       container: "#aos-container", 
+//     });
+//   }, []);
 
   return (
     <div className="flex-grow flex-col h-full">

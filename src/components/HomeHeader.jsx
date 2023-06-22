@@ -5,7 +5,7 @@ import '../fonts/Anabele.ttf';
 // import '../fonts/Ogg-Roman.otf';
 import { HomeNav } from './HomeNav';
 import { useLocation } from 'react-router-dom';
-import { Header } from './header';
+import { Header } from '/src/components/header';
 
 // HEADER COMPONENT FOR WHEN ON ANY PAGE EXCEPT HOME (NAVLINKS IN NAVBAR)
 

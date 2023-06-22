@@ -1,22 +1,22 @@
 import React, { useEffect} from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import StackGrid from "../components/StackGrid";
-import biopic from "../assets/images/biopic.jpeg";
-import { UpArrow } from "../assets/nav_arrows/UpArrow";
-import resumePDF from "../assets/Sarah_Landis_Resume.pdf"; 
-import { ColorRise } from "../components/ColorRise";
+import StackGrid from "/src/components/StackGrid";
+import biopic from "/src/assets/images/biopic.jpeg";
+import { UpArrow } from "/src/assets/nav_arrows/UpArrow";
+import resumePDF from "/src/assets/Sarah_Landis_Resume.pdf"; 
+import { ColorRise } from "/src/components/ColorRise";
 
 export function About() {
-    useEffect(() => {
-      AOS.init({
-        duration: 2000
-      });
+    // useEffect(() => {
+    //   AOS.init({
+    //     duration: 2000
+    //   });
     
-      return () => {
-        AOS.refresh();
-      };
-    }, []);
+    //   return () => {
+    //     AOS.refresh();
+    //   };
+    // }, []);
      
     
     return(

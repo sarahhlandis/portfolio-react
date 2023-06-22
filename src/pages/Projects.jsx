@@ -1,19 +1,19 @@
 import React, {useEffect} from "react";
 import AOS from "aos";
-import { ColorRise } from "../components/ColorRise";
-import ProjectList from "../components/ProjectList";
+import { ColorRise } from "/src/components/ColorRise";
+import ProjectList from "/src/components/ProjectList";
 
 export function Projects() {
 
-    useEffect(() => {
-      AOS.init({
-        duration: 2000
-      });
+    // useEffect(() => {
+    //   AOS.init({
+    //     duration: 2000
+    //   });
     
-      return () => {
-        AOS.refresh();
-      };
-    }, []);
+    //   return () => {
+    //     AOS.refresh();
+    //   };
+    // }, []);
     
     return(
     <div className="">
