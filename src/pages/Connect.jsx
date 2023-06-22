@@ -39,8 +39,9 @@ export function Connect() {
       <ColorRise />
       <div 
       data-aos="fade-right" data-aos-easing="ease-in-out"
-      className='w-1/2 font-poppins font-extralight text-xl justify-center pt-20'>
-        <section className="text-center">
+      className='w-1/2 font-poppins font-extralight text-xl justify-center pt-20'
+      >
+        <div className="text-center">
           <p className='font-bold italic text-4xl tracking-wide'>Let&#39;s talk! </p>
           <p>
             <br/>Send me a message via the form, 
@@ -49,10 +50,10 @@ export function Connect() {
             <br />or <br />
             connect with me on your preferred channel.
           </p>
-        </section>
-        <section className="text-center pt-10">
+        </div>
+        <div className="text-center pt-10">
           <p><br />You&#39;re welcome to reach me at:</p>
-          <p className='flex justify-center pt-5'>
+          <div className='flex justify-center pt-5'>
             <a 
               href="https://www.linkedin.com/in/sarahhlandis/" 
               target="_blank" 
@@ -75,9 +76,8 @@ export function Connect() {
               <EmailIcon />
             </a>
             <MobileIcon />
-          
-          </p>
-        </section>
+          </div>
+        </div>
       </div>
       {!emailSent ? (
         <div 

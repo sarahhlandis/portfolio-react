@@ -21,7 +21,7 @@ useEffect(() => {
   }, []);
 
   return (
-    <div className="">
+    <div className="flex-grow flex-col h-full">
       <Header />
       <ul className="font-Anabele text-6xl md:text-9xl text-right bg-orange-100 pb-8">  
         <NavigationLinks />

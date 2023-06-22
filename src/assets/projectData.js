@@ -2,6 +2,7 @@ import moonswell from '../assets/images/moonswell.png'
 import scribble from '../assets/images/scribble.png'
 import portfolio from '../assets/images/portfolio.png'
 import viper from '../assets/images/viper.png'
+import ff from '../assets/images/ff.png'
 
 const projects = [
     { id: 1, title: "Portfolio v.1",
@@ -24,7 +25,7 @@ const projects = [
     { id: 3, 
     title: "FitnessFinder",
     date: "March 2023",
-    image: ``,
+    image: `${ff}`,
     abstract: "A RESTful API Built With Flask",
     description: "FitnessFinder is an API web server built with PostgreSQL, Flask and Python following MVC architecture. It allows for full CRUD functionality and is bolstered with JWT authenication, backed by PostgreSQL as the relational database. Normalized data to 3NF. Tried and tested using Insomnia.",
     repo: "https://github.com/sarahhlandis/FitnessFinder-REST-API",
