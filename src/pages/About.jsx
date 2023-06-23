@@ -16,14 +16,14 @@ export function About() {
         <div className="flex flex-col justify-end">
             <div className="overflow-y-hidden flex-grow justify-end items-end">
                 <div className="animate-rise flex">
-                    <p className="text-9xl font-Anabele tracking-wide italic pl-60 h-full w-full">
+                    <p className="h-full w-full pt-10 pl-8 text-7xl font-Anabele tracking-wide italic md:text-9xl md:pl-32 lg:pl-60">
                         about
                     </p>
                 </div>
             </div>
         </div>
-        <div id="aos-container" className="flex overflow-visible">
-            <div className="text-left font-poppins font-extralight pt-10 flex-col w-1/2 scroll-hidden">
+        <div id="aos-container" className="flex flex-col-reverse lg:flex-row overflow-visible">
+            <div className="text-left font-poppins font-extralight pt-10 w-full lg:w-1/2 scroll-hidden">
                 {/* <section data-aos="fade-right" data-aos-delay="500" data-aos-easing="ease-in-out"> */}
                 <section>
                     <div className="text-4xl tracking-wide italic">
@@ -166,8 +166,8 @@ export function About() {
                     </a>
                 </div>
             </div>
-            <div className="w-1/2 pt-10" data-aos="fade-in" data-aos-easing="ease-in" data-aos-duration="1700">
-                <img src={biopic} alt="bio photo" className="sticky top-0 pl-10" /> 
+            <div className="w-full lg:w-1/2 pt-10" data-aos="fade-in" data-aos-easing="ease-in" data-aos-duration="1700">
+                <img src={biopic} alt="bio photo" className="sticky top-0 lg:pl-10" /> 
                 {/* use this to get whole photo height to show and keep aspect ratio: max-h-screen max-w-full */}
             </div>
         </div>
