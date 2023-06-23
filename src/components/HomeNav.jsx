@@ -2,7 +2,8 @@ import { NavLink } from "react-router-dom";
 import { useLocation } from 'react-router-dom';
 import { NavigationLinks } from "../components/NavLinks";
 
-// NAV FOR WHEN ON ANY PAGE EXCEPT HOME (able to return home from this nav)
+// NAV INCLUDING HOME LINK 
+// SHOWS WHEN ON ANY PAGE EXCEPT HOME
 
 export function HomeNav() {
     const location = useLocation();
