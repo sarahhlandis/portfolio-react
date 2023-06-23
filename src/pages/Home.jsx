@@ -9,11 +9,12 @@ export function Home() {
   return (
     <div className="flex flex-col h-screen justify-between">
       <Header />
-        <ul className="font-Anabele text-6xl md:text-9xl text-right bg-orange-100 pb-8">  
+      <div>
+        <ul className="font-Anabele text-6xl text-right bg-orange-100 pb-8 pt-8 md:text-9xl md:justify-end md:pt-0">  
           <NavigationLinks />
         </ul>
-        <section className="font-poppins font-extralight text-left text-2xl pt-5">
-          <p className="font-poppins font-extrabold text-3xl" data-aos="fade-right" data-aos-delay="150" data-aos-duration="3000">
+        <section className="font-poppins font-extralight text-left text-xl md:text-2xl pt-5">
+          <p className="font-poppins font-extrabold text-3xl md:text-4xl" data-aos="fade-right" data-aos-delay="150" data-aos-duration="3000">
             SARAH LANDIS
           </p>
           <p className="" data-aos="fade-up" data-aos-delay="300" data-aos-duration="3000">
@@ -23,6 +24,7 @@ export function Home() {
             passionate front-end developer
           </p>
         </section>
+      </div>
       <Footer />
     </div>
   );
