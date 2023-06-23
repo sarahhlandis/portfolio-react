@@ -1,12 +1,12 @@
 import React, {useEffect} from 'react';
 import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom'
 import './App.css' 
-import { About } from '/src/pages/About';
-import { Home } from '/src/pages/Home';
-import { Projects } from '/src/pages/Projects';
-import { Connect } from '/src/pages/Connect';
-import { SoloProject } from '/src/pages/SoloProject';
-import { PageLayout } from '/src/pages/PageLayout';
+import { About } from './pages/About';
+import { Home } from './pages/Home';
+import { Projects } from './pages/Projects';
+import { Connect } from './pages/Connect';
+import { SoloProject } from './pages/SoloProject';
+import { PageLayout } from './pages/PageLayout';
 import AOS from 'aos';
 
 

@@ -2,7 +2,7 @@ import '../fonts/Anabele.otf';
 import '../fonts/Anabele.ttf';
 import { HomeNav } from './HomeNav';
 import { useLocation } from 'react-router-dom';
-import { Header } from '/src/components/header';
+import { Header } from '../components/Header';
 
 // HEADER COMPONENT INCL. NAVLINKS 
 // FOR WHEN ON ANY PAGE EXCEPT HOME

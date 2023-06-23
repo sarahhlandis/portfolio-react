@@ -1,6 +1,6 @@
 import React, {useEffect} from "react";
-import ProjectList from "/src/components/ProjectList";
-import { ColorRise } from "/src/components/ColorRise";
+import ProjectList from "../components/ProjectList";
+import { ColorRise } from "../components/ColorRise";
 
 export function Projects() {
 

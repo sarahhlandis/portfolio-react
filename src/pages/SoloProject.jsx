@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
-import projects from "/src/assets/projectData";
-import { LeftArrow } from "/src/assets/nav_arrows/LeftArrow";
-import { RightArrow } from "/src/assets/nav_arrows/RightArrow";
+import projects from "../assets/projectData";
+import { LeftArrow } from "../assets/nav_arrows/LeftArrow";
+import { RightArrow } from "../assets/nav_arrows/RightArrow";
 
 export function SoloProject() {
 

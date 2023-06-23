@@ -1,7 +1,7 @@
-import { NavigationLinks } from '/src/components/NavLinks';
-import { Header } from '/src/components/header';
+import { NavigationLinks } from '../components/NavLinks';
 import "aos/dist/aos.css";
-import { Footer } from '/src/components/Footer';
+import { Footer } from '../components/Footer';
+import { Header } from '../components/Header';
 
 export function Home() {
 

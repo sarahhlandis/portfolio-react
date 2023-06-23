@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import projects from "/src/assets/projectData";
+import projects from "../assets/projectData";
 
     
 const ProjectList = () => {
