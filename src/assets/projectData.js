@@ -5,7 +5,7 @@ import viper from '../assets/images/viper.png'
 import ff from '../assets/images/ff.png'
 
 const projects = [
-    { id: 1, title: "Portfolio v.1",
+    { id: 1, title: "Portfolio v1",
     date: "November 2022",
     image: `${portfolio}`,
     abstract: "Vanilla Version of My Dev Portfolio",
@@ -26,7 +26,7 @@ const projects = [
     title: "FitnessFinder",
     date: "March 2023",
     image: `${ff}`,
-    abstract: "A RESTful API Built With Flask",
+    abstract: "A RESTful API Built with Flask",
     description: "FitnessFinder is an API web server built with PostgreSQL, Flask and Python following MVC architecture. It allows for full CRUD functionality and is bolstered with JWT authenication, backed by PostgreSQL as the relational database. Normalized data to 3NF. Tried and tested using Insomnia.",
     repo: "https://github.com/sarahhlandis/FitnessFinder-REST-API",
     demo: "",
@@ -35,7 +35,7 @@ const projects = [
         title: "Scribble",
         date: "April 2023",
         image: `${scribble}`,
-        abstract: "Take Notes on Your Desktop",
+        abstract: "Quick Notes from Your Desktop",
         description: "This small, side application was built as a play-around with React. It's similar in its usage to Stickies (macOS) and is meant to resemble sticky notes. My aim in this app was to try to get the data persist which was achieved by using localStorage. Also allows for users to modify an existing note, delete, or create a new one. Not responsive for different media screens. Future versions may support functionality to change the note color so stay tuned!",
         repo: "https://github.com/sarahhlandis/practice-react-project",
         demo: "https://scribblenotetaking.netlify.app/",
@@ -44,7 +44,7 @@ const projects = [
     title: "Moonswell",
     date: "May 2023",
     image: `${moonswell}`,
-    abstract: "Soft competitor to WillyWeather",
+    abstract: "Soft Competitor to WillyWeather",
     description: "A dynamic site built with React as part of a collaborative Hackathon with CoderAcademy. Working with a team of 3 others, we created this fully functional SPA application in a week. The aim was to dig into some fun with React and learn along the way. Our team utilized Vite and Tailwind and put out a fair few git branching fires. My contributions to the site included the homepage, header & footer, and reusable navbar components.",
     repo: "https://github.com/reactronauts/untitled-tide-app",
     demo: "https://moonswell.netlify.app/",

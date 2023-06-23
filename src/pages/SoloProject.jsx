@@ -6,16 +6,20 @@ import { RightArrow } from "/src/assets/nav_arrows/RightArrow";
 
 export function SoloProject() {
 
-
   const { title } = useParams();
   const currentIndex = projects.findIndex(
     (project) => project.title.toLowerCase() === title.toLowerCase()
   );
 
   if (currentIndex === -1) {
-    return <div className="font-poppins text-2xl">
-      Project not found
-    </div>;
+    return (
+    <div className="font-poppins font-extralight text-2xl">
+      Oops, looks like that one doesn&#39;t exist. < br/>
+      <Link className="relative inline-block bg-gradient-to-t from-sky-300 from-35% to-transparent to-40% hover:bg-sky-300 transition duration-100 ease-in-out"
+      to="/projects">Let&#39;s go back...
+      </Link>
+    </div>
+    );
   }
 
   const prevIndex = (currentIndex - 1 + projects.length) % projects.length;
@@ -65,7 +69,8 @@ export function SoloProject() {
           {/* below links currently coded for continuous iterating thru array */}
           <div className="flex justify-evenly">
             <div className="hover:scale-125 ease-out duration-200"> 
-                {/* if wanting the buttons to stop at first and last, uncomment below */}
+                {/* if wanting the buttons to stop at first and last, uncomment below 
+                use below in place of line 70 */}
                 {/* {currentIndex > 0 && ( */}
                 {prevProject && (
                 <Link
@@ -80,7 +85,8 @@ export function SoloProject() {
                 <Link to="/projects">back to all</Link>
             </p>
             <div className="hover:scale-125 ease-out duration-200"> 
-                {/* if wanting the buttons to stop at first and last, uncomment below */}
+                {/* if wanting the buttons to stop at first and last, uncomment below
+                use below in place of line 85 */}
                 {/* {currentIndex < projects.length - 1 &&  ( */}
                 {nextProject && (
                 <Link to={`/projects/${nextProject.title}`}>

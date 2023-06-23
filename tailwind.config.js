@@ -16,7 +16,6 @@ export default {
         rise: {
           '0%': {
             transform: 'translateY(150%)'},
-            opacity: 1,
           '50%': {
               transform: 'translateY(150%)',
           },
@@ -39,7 +38,6 @@ export default {
         curtain: {
           '0%': {
             transform: 'translateY(0%)'},
-            opacity: 1,
           '35%': {
               transform: 'translateY(0%)'},
           '50%': {

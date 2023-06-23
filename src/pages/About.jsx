@@ -26,12 +26,12 @@ export function About() {
             <div className="text-left font-poppins font-extralight pt-10 flex-col w-1/2 scroll-hidden">
                 {/* <section data-aos="fade-right" data-aos-delay="500" data-aos-easing="ease-in-out"> */}
                 <section>
-                    <p className="text-4xl tracking-wide italic">
+                    <div className="text-4xl tracking-wide italic">
                         Hello there, I&#39;m Sarah. 
                         <br />
                     <p className="font-semibold  text-2xl">So nice to meet you!</p>
                         <br />
-                    </p>
+                    </div>
                 </section>
                 {/* <p data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-delay="100" */}
                 <p className="pb-10">
@@ -42,7 +42,7 @@ export function About() {
                 </p>
                 {/* <section data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-delay="100"> */}
                 <section>
-                    <p>
+                    <div>
                         <br />
                         <p className="font-bold tracking-wide text-lg"> Iterative • Education </p>
                         <br />
@@ -76,10 +76,10 @@ export function About() {
                         <br />
                         <br />
                         </p>
-                    </p>
+                    </div>
                 </section>
                 <section data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-delay="100">
-                    <p>
+                    <div>
                         <br />
                         <p className="font-bold tracking-wide text-lg pt-10"> Debugging • Life </p>
                         <br />
@@ -102,10 +102,10 @@ export function About() {
                         <br />
                         Through debugging my life, I&#39;ve had the opportunity to immerse myself in a new way of living, forge meaningful connections, and continue my personal and professional growth. I&#39;m excited to continue to thrive in an environment that supports my pursuit of a fulfilling and balanced life. Australia&#39;s beauty has truly captured my heart.
                         </p>
-                    </p>
+                    </div>
                 </section>
                 <section data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-delay="100">
-                    <p>
+                    <div>
                         <br />
                         <br />
                         <p className="font-bold tracking-wide text-lg pt-10"> Refactoring • My Expertise </p>
@@ -131,10 +131,10 @@ export function About() {
                         <br />
                         Mainly, I am proud to be working in web development, and excited by the daily challenges. I feel great joy in being able to create functional and visually appealing websites that have a real impact on users. It&#39;s incredibly fulfilling to see my work come to life and contribute to the digital landscape in one way or another. 
                         </p>
-                    </p>
+                    </div>
                 </section>
                 <section id="tech" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-delay="100">
-                    <p>
+                    <div>
                         <br />
                         <br />
                         <p className="font-bold tracking-wide text-lg pt-10"> Optimizing • The Tech </p>
@@ -151,7 +151,7 @@ export function About() {
                         <div>
                             <StackGrid />
                         </div>
-                    </p>
+                    </div>
                 </section>
                 <div className="flex justify-center text-xl font-semibold pt-10" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-delay="100">
                     <a href={resumePDF} target="_blank" rel="noopener noreferrer">
