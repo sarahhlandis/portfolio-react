@@ -189,7 +189,7 @@ export function Connect() {
       <div
         data-aos="fade-in"
         data-aos-easing="ease-in-out"
-        className="w-full lg:w-1/2 font-poppins font-extralight text-xl justify-center pt-10"
+        className="w-full lg:w-1/2 font-poppins font-extralight text-xl justify-center pt-2 md:pt-10"
       >
         <div className="text-center">
           <p className="font-Anabele italic text-7xl md:text-8xl tracking-wide">let&#39;s talk! </p>
@@ -292,7 +292,7 @@ export function Connect() {
       ) : (
         <div className="flex justify-center pb-10 pt-5 md:pb-0 lg:pt-10 lg:w-1/2">
           <section className="flex text-xl font-poppins font-extralight text-center items-center">
-            <p>
+            <div>
               Thank you -
               Your email was successfully sent.
               <br />
@@ -301,7 +301,7 @@ export function Connect() {
               <p className="flex text-center justify-center pt-5 font-semibold text-2xl italic tracking-wide">
                 Speak soon...
               </p>
-            </p>
+            </div>
           </section>
         </div>
       )}

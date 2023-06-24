@@ -16,7 +16,7 @@ export function About() {
         <div className="flex flex-col justify-end">
             <div className="overflow-y-hidden flex-grow justify-end items-end">
                 <div className="animate-rise flex">
-                    <p className="h-full w-full pt-10 pl-8 text-7xl font-Anabele tracking-wide italic md:text-9xl md:pl-32 lg:pl-60">
+                    <p className="h-full w-full pt-2 pl-8 text-7xl font-Anabele tracking-wide italic md:text-9xl md:pt-10 md:pl-32 lg:pl-60">
                         about
                     </p>
                 </div>
