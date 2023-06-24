@@ -290,8 +290,8 @@ export function Connect() {
           </form>
         </div>
       ) : (
-        <div className="flex justify-center h-100 w-full pt-10">
-          <section className="flex text-xl font-poppins font-extralight pt-10 text-center items-center">
+        <div className="flex justify-center pb-10 pt-5 md:pb-0 lg:pt-10 lg:w-1/2">
+          <section className="flex text-xl font-poppins font-extralight text-center items-center">
             <p>
               Thank you -
               Your email was successfully sent.
