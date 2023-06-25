@@ -36,11 +36,11 @@ export function Header() {
             <div className="flex items-center align-middle justify-between">
             <NavLink
                 to="/"
-                className="text-lg pt-5 font-poppins font-extralight align-middle hover:scale-105 transition-transform duration-300"
+                className="text-lg font-poppins font-extralight align-middle hover:scale-105 transition-transform duration-300"
             >
                 /Sarah Landis
             </NavLink>
-            <div className="pt-5">
+            <div className="">
                 <HamburgerMenu />
             </div>
         </div>
