@@ -38,7 +38,7 @@ export function Connect() {
       <div
         data-aos="fade-in"
         data-aos-easing="ease-in-out"
-        className="w-full lg:w-1/2 font-poppins font-extralight text-xl justify-center pt-2 md:pt-10"
+        className="w-full lg:w-1/2 font-poppins font-extralight text-xl justify-center pt-2"
       >
         <div className="text-center">
           <p className="font-Anabele italic text-7xl md:text-8xl tracking-wide">let&#39;s talk! </p>
@@ -87,7 +87,7 @@ export function Connect() {
         <div
           data-aos="fade-in"
           data-aos-easing="ease-in-out"
-          className="w-full lg:w-1/2 mx-auto font-poppins md:pt-16 md:pl-10"
+          className="w-full lg:w-1/2 mx-auto font-poppins md:pt-5 md:pl-10"
         >
           <form
             ref={form}

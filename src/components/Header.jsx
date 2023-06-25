@@ -19,7 +19,7 @@ export function Header() {
     // const isHomePage = location.pathname === "/";
 
     return (
-        <div className="flex items-center align-middle pb-5 justify-between">
+        <div className="flex items-center align-middle justify-between">
             <NavLink
                 to="/"
                 className="text-6xl pt-5 font-Anabele text-semibold align-middle hover:scale-105 transition-transform duration-300"

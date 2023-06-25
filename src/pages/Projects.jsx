@@ -9,7 +9,7 @@ export function Projects() {
     <div className="">
         <ColorRise />
         <div id="aos-container" className="lg:flex">
-            <div className="text-left font-poppins font-extralight md:pt-10 pb-5 lg:pb-0 flex flex-col lg:w-2/5 scroll-hidden justify-end">
+            <div className="text-left font-poppins font-extralight pb-5 flex flex-col lg:pb-0 lg:w-2/5 scroll-hidden justify-end">
                 <section>
                     <p className="text-4xl md:text-5xl tracking-wide" 
                     data-aos="fade-right" data-aos-delay="150" data-aos-duration="3000">

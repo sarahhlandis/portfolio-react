@@ -17,7 +17,7 @@ const projects = [
     title: "Viper",
     date: "December 2022",
     image: `${viper}`,
-    abstract: "Learning Application from the Command Line",
+    abstract: "Learn a Language from the Command Line",
     description: "This robust application was built with Python and is fully functional from the terminal. My goal of this project was to aid and enable a user to learn any language of their choosing whilst making it fun. The application features an internal continuous menu, a threaded timer, a full translation mode supporting 126 languages (calls to googleTrans pkg), readable permissions of CSV files, along with a quiz mode that output a quiz metrics .txt file for review.",
     repo: "https://github.com/sarahhlandis/Viper-Learning-App",
     demo: "",
