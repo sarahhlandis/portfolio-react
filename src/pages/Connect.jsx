@@ -43,16 +43,14 @@ export function Connect() {
         <div className="text-center">
           <p className="font-Anabele italic text-7xl pt-5 md:pt-0 md:text-8xl tracking-wide">Let&#39;s chat! </p>
           <p>
-            <br />Enquire via the form,
-            <br />send me an email,
-            <br />give me a ring,
-            <br />or <br />
+            <br />Enquire via the form
+            <br /> or <br />
             connect with me on your preferred channel.
           </p>
         </div>
         <div className="text-center pt-10 pb-10">
           <p>
-            <br />Alternatively, you&#39;re welcome to reach me at:
+            <br />You can also reach me at:
           </p>
           <div className="flex justify-center pt-5">
             <a
