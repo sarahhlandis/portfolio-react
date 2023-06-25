@@ -13,7 +13,7 @@ export function Projects() {
                 <section>
                     <p className="text-4xl md:text-5xl tracking-wide" 
                     data-aos="fade-right" data-aos-delay="150" data-aos-duration="3000">
-                        showcase
+                        Showcase
                         <br />
                     </p>
                     <p className="text-xl pt-2"

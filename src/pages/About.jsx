@@ -17,7 +17,7 @@ export function About() {
             <div className="overflow-y-hidden flex-grow justify-end items-end">
                 <div className="animate-rise flex">
                     <p className="h-full w-full pt-2 pl-8 text-7xl font-Anabele tracking-wide italic md:text-9xl md:pl-32 lg:pl-60">
-                        about
+                        About
                     </p>
                 </div>
             </div>
@@ -38,7 +38,7 @@ export function About() {
                     If you want to know more about me, keep reading. 
                     <br/>
                     <br /> 
-                    Or, stick with what you know and just check out <a className="relative inline-block bg-gradient-to-t from-sky-300 from-35% to-transparent to-40% hover:bg-sky-300 transition duration-100 ease-in-out" href="#tech">my stack & resumé.</a>
+                    Or, stick with what you know and just check out <a className="font-semibold relative inline-block bg-gradient-to-t from-sky-300 from-35% to-transparent to-40% hover:bg-sky-300 transition duration-100 ease-in-out" href="#tech">my stack & resumé</a>.
                 </p>
                 {/* <section data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-delay="100"> */}
                 <section>
@@ -125,7 +125,7 @@ export function About() {
                         However, I found myself in the same situation as before and thinking, I&#39;m just not passionate about this nor am I being challenged. This job was off the back of covid so I actually had&#39;t been back to America since moving away, and I was beginning to think maybe Byron is just <i>too</i> small. My husband and I decided to go back and do a big trip as many of my friends actually hadn&#39;t met him before and also to decide what needed to change.
                         <br />
                         <br />
-                        One of my husband&#39;s closest friends had just sold his business for multimillions and suggested my husband actually look into coding and web development as a career. My husband looked into it for a while but didn&#39;t think it would hold his attention but in that time, it piqued mine. I recalled doing a semester of computer science in uni and lovimg it and coupled with my love for languages and tetris-like brain, I thought it may actually be a better fit for me. 
+                        One of my husband&#39;s closest friends had just sold his business for multimillions and suggested my husband actually look into coding and web development as a career. My husband looked into it for a while but didn&#39;t think it would hold his attention but in that time, it piqued mine. I recalled doing a semester of computer science in uni and loving it and coupled with my love for languages and tetris-like brain, I thought it may actually be a better fit for me. 
                         <br />
                         <br />
                         Enrolling in the bootcamp allowed me to upskill and become potent in my web development career. I&#39;m the type that gives everything to my work and won&#39;t settle for MVP. I find myself getting into little rabbit holes of bugs and just chipping away until I get the small-win satisfaction when I resolve it. I realize I must like it enough to spend hours and hours doing it each day!

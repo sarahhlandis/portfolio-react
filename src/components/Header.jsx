@@ -6,6 +6,8 @@ import '../fonts/Ogg-Roman.otf';
 import { NavLink } from "react-router-dom";
 // import { useLocation } from 'react-router-dom';
 import HamburgerMenu from './HamburgerMenu';
+import { useMediaQuery } from 'react-responsive';
+
 
 // "HEADER" COMPONENT S. FOR HOME PAGE ONLY 
 // (NAV LINKS NOT IN NAVBAR)
@@ -17,8 +19,11 @@ export function Header() {
     // }
 
     // const isHomePage = location.pathname === "/";
+    const isMdScreenOrLarger = useMediaQuery({ minWidth: 768 });
 
     return (
+        <div>
+        {isMdScreenOrLarger ? (
         <div className="flex items-center align-middle justify-between">
             <NavLink
                 to="/"
@@ -26,9 +31,20 @@ export function Header() {
             >
                 S.
             </NavLink>
-            <div className="md:hidden pt-2">
+        </div>) : 
+        (
+            <div className="flex items-center align-middle justify-between">
+            <NavLink
+                to="/"
+                className="text-lg pt-5 font-poppins font-extralight align-middle hover:scale-105 transition-transform duration-300"
+            >
+                /Sarah Landis
+            </NavLink>
+            <div className="pt-5">
                 <HamburgerMenu />
             </div>
+        </div>
+        )}
         </div>
     );
 }

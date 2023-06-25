@@ -23,7 +23,7 @@ export function NavigationLinks() {
             to="/about"
             className={linkStyle}
           >
-            about me
+            About
           </NavLink>
         </li>
 
@@ -32,7 +32,7 @@ export function NavigationLinks() {
             to="/projects"
             className={linkStyle}
           >
-            projects
+            Projects
           </NavLink>
         </li>
 
@@ -41,7 +41,7 @@ export function NavigationLinks() {
             to="/connect"
             className={linkStyle}
           >
-            say hi
+            Connect
           </NavLink>
         </li>
       </>
