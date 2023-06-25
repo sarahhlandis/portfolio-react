@@ -3,6 +3,13 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      colors: {
+        'sand': '#F0EAD2',
+        'grass': '#DDE5B6',
+        'moss': '#ADC178',
+        'nude': '#A98467',
+        'choccy': '#6C584C',
+      },
       fontFamily: {
         'poppins': ['Poppins', 'sans-serif'],
       },

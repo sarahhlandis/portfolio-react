@@ -7,10 +7,10 @@ export function Home() {
 
 
   return (
-    <div className="flex flex-col h-screen justify-between">
+    <div className="flex flex-col h-screen justify-start justify-between">
       <Header />
-      <div>
-        <ul className="font-Anabele text-6xl text-right bg-orange-100 pb-8 pt-8 md:text-9xl md:justify-end md:pt-0">  
+      <div className='block'>
+        <ul className="font-Anabele text-6xl text-right bg-orange-100 pb-36 md:text-9xl md:justify-end lg:pb-0">  
           <NavigationLinks />
         </ul>
         <section className="font-poppins font-extralight text-left text-xl md:text-2xl pt-5">
