@@ -41,7 +41,7 @@ export function Connect() {
         className="w-full lg:w-1/2 font-poppins font-extralight text-xl justify-center pt-2"
       >
         <div className="text-center">
-          <p className="font-Anabele italic text-7xl md:text-8xl tracking-wide">let&#39;s talk! </p>
+          <p className="font-Anabele italic text-7xl pt-5 md:pt-0 md:text-8xl tracking-wide">let&#39;s talk! </p>
           <p>
             <br />Send me a message via the form,
             <br />flick me an email,
