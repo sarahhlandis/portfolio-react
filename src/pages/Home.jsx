@@ -9,10 +9,10 @@ export function Home() {
   const isMdScreenOrLarger = useMediaQuery({ minWidth: 768 });
   
   return (
-    <div className="flex flex-col h-screen justify-start justify-between">
+    <div className="flex flex-col h-screen justify-between">
       <Header />
       <div className='block'>
-        <ul className="font-Anabele text-6xl text-right bg-orange-100 pb-16 md:pb-36 md:text-9xl md:justify-end lg:pb-0">  
+        <ul className="font-Anabele text-6xl text-right bg-orange-100 pb-36 md:text-9xl md:justify-end lg:pb-0">  
           <NavigationLinks />
         </ul>
         {isMdScreenOrLarger ? (
@@ -27,13 +27,16 @@ export function Home() {
             passionate front-end developer
           </p>
         </section>) : (<section className="font-poppins font-extralight text-left text-xl pt-5">
-          <p className="font-poppins font-extrabold text-3xl md:text-4xl" data-aos="fade-in" data-aos-delay="200" data-aos-duration="3000">
+          <p className="font-poppins font-extrabold text-3xl animate-fadeIn">
+             {/* className="font-poppins font-extrabold text-3xl md:text-4xl" data-aos="fade-in" data-aos-delay="200" data-aos-duration="3000"> */}
             SARAH LANDIS
           </p>
-          <p className="" data-aos="fade-in" data-aos-delay="500" data-aos-duration="3000">
+          <p className='animate-fadeIn'>
+            {/* className="" data-aos="fade-in" data-aos-delay="500" data-aos-duration="3000"> */}
             based in Byron Bay, Australia
           </p>
-          <p className="" data-aos="fade-in" data-aos-delay="1000" data-aos-duration="3000">
+          <p className='animate-fadeIn'>
+             {/* className="" data-aos="fade-in" data-aos-delay="1000" data-aos-duration="3000"> */}
             passionate front-end developer
           </p>
         </section>)

@@ -91,7 +91,7 @@ export default {
         rise: 'rise 1.5s ease-in',
         slowFastAnimation: "slowFastAnimation 1.5s ease-in-out",
         curtain: 'curtain 1.5s ease-in',
-        animation: 'fadeIn 1s ease-in-out forwards',
+        fadeIn: 'fadeIn 2.5s ease-in forwards',
       } 
     },
   },
