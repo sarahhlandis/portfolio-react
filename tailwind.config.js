@@ -14,6 +14,14 @@ export default {
         'poppins': ['Poppins', 'sans-serif'],
       },
       keyframes: {
+        fadeIn: {
+          '0%': {
+            opacity: 0,
+          },
+         '100%': {
+            opacity: 1,
+          }
+        },
         wiggle: {
           '0%, 100%': {
             transform: 'translateY(-15%)' },
@@ -83,6 +91,7 @@ export default {
         rise: 'rise 1.5s ease-in',
         slowFastAnimation: "slowFastAnimation 1.5s ease-in-out",
         curtain: 'curtain 1.5s ease-in',
+        animation: 'fadeIn 1s ease-in-out forwards',
       } 
     },
   },
