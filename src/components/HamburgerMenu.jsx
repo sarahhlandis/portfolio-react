@@ -1,20 +1,28 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 function HamburgerMenu() {
 
 const [isNavOpen, setIsNavOpen] = useState(false);
+
+useEffect(() => {
+    if (isNavOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+  }, [isNavOpen]);
 
 return (
 <div className="lg:hidden flex items-center justify-between py-8">
     <nav>
         <section className="flex md:hidden">
             <div
-            className="space-y-2"
+            className="space-y-2 transition-all duration-300"
             onClick={() => setIsNavOpen((prev) => !prev)}
             >
-                <span className="block h-0.5 w-8 bg-gray-600 mt-2"></span>
-                <span className="block h-0.5 w-8 bg-gray-600"></span>
-                <span className="block h-0.5 w-8 bg-gray-600"></span>
+                <span className="block h-0.5 w-8 bg-black mt-2"></span>
+                <span className="block h-0.5 w-8 bg-black"></span>
+                <span className="block h-0.5 w-8 bg-black"></span>
             </div>
             
             <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
@@ -23,7 +31,7 @@ return (
                     onClick={() => setIsNavOpen(false)}
                 >
                     <svg
-                    className="h-8 w-8 text-gray-600"
+                    className="h-8 w-8 text-black"
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
