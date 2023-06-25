@@ -38,10 +38,10 @@ export function Connect() {
       <div
         data-aos="fade-in"
         data-aos-easing="ease-in-out"
-        className="w-full lg:w-1/2 font-poppins font-extralight text-xl justify-center pt-2"
+        className="w-full lg:w-1/2 font-poppins font-extralight text-xl justify-center md:pt-10"
       >
         <div className="text-center">
-          <p className="font-Anabele italic text-7xl pt-5 md:pt-0 md:text-8xl tracking-wide">Let&#39;s chat! </p>
+          <p className="font-Anabele italic text-7xl pt-5 md:pt-0 md:text-8xl tracking-wide">Let&#39;s chat </p>
           <p>
             <br />Enquire via the form
             <br /> or <br />
@@ -49,9 +49,6 @@ export function Connect() {
           </p>
         </div>
         <div className="text-center pt-10 pb-10">
-          <p>
-            <br />You can also reach me at:
-          </p>
           <div className="flex justify-center pt-5">
             <a
               href="https://www.linkedin.com/in/sarahhlandis/"
@@ -85,7 +82,7 @@ export function Connect() {
         <div
           data-aos="fade-in"
           data-aos-easing="ease-in-out"
-          className="w-full lg:w-1/2 mx-auto font-poppins md:pt-5 md:pl-10"
+          className="w-full lg:w-1/2 mx-auto font-poppins md:pt-5 lg:pl-10"
         >
           <form
             ref={form}
