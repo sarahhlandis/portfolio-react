@@ -12,7 +12,7 @@ export function Home() {
     <div className="flex flex-col h-screen justify-start justify-between">
       <Header />
       <div className='block'>
-        <ul className="font-Anabele text-6xl text-right bg-orange-100 pb-20 md:pb-36 md:text-9xl md:justify-end lg:pb-0">  
+        <ul className="font-Anabele text-6xl text-right bg-orange-100 pb-16 md:pb-36 md:text-9xl md:justify-end lg:pb-0">  
           <NavigationLinks />
         </ul>
         {isMdScreenOrLarger ? (
