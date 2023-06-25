@@ -20,7 +20,7 @@ return (
             className="space-y-2 transition-all duration-300"
             onClick={() => setIsNavOpen((prev) => !prev)}
             >
-                <span className="block h-0.5 w-8 bg-black mt-2"></span>
+                <span className="block h-0.5 w-8 bg-black"></span>
                 <span className="block h-0.5 w-8 bg-black"></span>
                 <span className="block h-0.5 w-8 bg-black"></span>
             </div>
@@ -44,13 +44,13 @@ return (
                     </svg>
                 </div>
                 <ul className="flex flex-col items-center justify-between min-h-[250px] font-Anabele text-xl">
-                    <li className="border-b border-gray-400 my-8 uppercase">
+                    <li className="border-b border-black mb-8 uppercase">
                     <a href="/about">About</a>
                     </li>
-                    <li className="border-b border-gray-400 my-8 uppercase">
+                    <li className="border-b border-black my-8 uppercase">
                     <a href="/projects">Projects</a>
                     </li>
-                    <li className="border-b border-gray-400 my-8 uppercase">
+                    <li className="border-b border-black my-8 uppercase">
                     <a href="/connect">Say Hi</a>
                     </li>
                 </ul>
