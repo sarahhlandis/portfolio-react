@@ -86,7 +86,7 @@ export function SoloProject() {
               </Link>
               )}
            </div>
-          <p className="hover:scale-125 ease-out duration-200"> 
+          <p className="font-semibold hover:scale-125 ease-out duration-200"> 
               <br />
               <Link to="/projects">back to all</Link>
           </p>

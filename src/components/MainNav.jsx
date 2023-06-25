@@ -12,10 +12,10 @@ export function MainNav() {
   return (
     <>
       {location.pathname !== "/" && (
-        <nav className="md:flex md:flex-row items-center justify-between">
+        <nav className="items-center justify-between md:flex md:flex-row ">
           <Header />
           {/* hide horizontal nav on smaller screens */}
-            <ul className="hidden md:flex md:flex-row space-x-4 md:space-x-10 text-center text-xl font-Anabele">
+            <ul className="hidden text-center text-xl font-Anabele space-x-4 md:flex md:flex-row md:space-x-10">
               <HomeNav />
             </ul>
         </nav>

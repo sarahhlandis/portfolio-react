@@ -26,7 +26,7 @@ export function Header() {
             >
                 S.
             </NavLink>
-            <div className="md:hidden">
+            <div className="md:hidden pt-2">
                 <HamburgerMenu />
             </div>
         </div>
