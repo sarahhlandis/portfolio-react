@@ -38,7 +38,7 @@ export function About() {
                     If you want to know more about me, keep reading. 
                     <br/>
                     <br /> 
-                    Or, stick with what you know and just check out <a className="font-semibold relative inline-block bg-gradient-to-t from-sky-300 from-35% to-transparent to-40% hover:bg-sky-300 transition duration-100 ease-in-out" href="#tech">my stack & resumé</a>.
+                    Or, stick with what you know and check out <a className="font-semibold relative inline-block bg-gradient-to-t from-sky-300 from-35% to-transparent to-40% hover:bg-sky-300 transition duration-100 ease-in-out" href="#tech">my stack & resumé</a>.
                 </p>
                 {/* <section data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-delay="100"> */}
                 <section>
@@ -60,20 +60,19 @@ export function About() {
                         </p>
                         <br/>
                         <p className="">
-                            From an ingrained importance on education in American culture, I thoroughly enjoyed my structured learning years. Spending my youth in school and extracurricular activities, I always had an excitement to learn. 
+                            Growing up in the American culture, I always found joy in my structured learning years and fully engaged myself in my academics and extracurricular activities.  
                             <br />
                             <br />
-                            After finishing high school, I went off (as Americans do) to
-                            Wake Forest University to pursue my Bachelor&#39;s Degree. Being a liberal arts school, we had the freedom to dip our toes into a plethora of different course subjects and choose our major after 2 years of testing the waters and finding our interests. I chose to major in Communication and French as I love language and believe that communication is the core building block to all things in life: relationships, conflict resolution, professional endeavors, etc. 
+                            After graduating from high school, I attended Wake Forest University to pursue my Bachelor&#39;s Degree. Being a liberal arts school, we had the freedom to explore various subjects for two years before choosing a major. Drawn to language and recognizing its significance in all aspects of life, I chose to major in Communication and French. I strongly believe the art of communication is integral to all things in life: relationships, conflict resolution, professional endeavors, etc. 
                             <br />
                             <br />
-                            I studied abroad in France for 6 weeks during a summer while on break from school - I lived with a host family with 4 children under 5 and one aged 10, in a little town south of Paris called Tours. This experience was invaluable as I was able to fully immerse myself in a new place and really integrate into the french way of living. Communication in this sense was key as I had to use the language that I had learned for the past 7 years in order to <i>communicate</i>.
+                            During one of our school&#39;s summer breaks, I had the incredible opportunity to study abroad in France for six weeks. Living with a host family in the charming town of Tours, just south of Paris, I fully embraced the French way of life and was able to practice my language skills. This experience reinforced the vital role of effective communication, as I had no choice but to rely on the language I had been learning for the past seven years in order to truly connect and integrate into my new surroundings.
                             <br />
                             <br />
-                            Once I came to Australia, I found myself in Byron Bay (more on that later!) - as beautiful as Byron is, a lot of the work is based around tourism and hospitality. Needing more of a challenge and with a desire to be proud of what I do, after a few managerial roles I decided to enroll in a 10-month intensive, full stack, web development bootcamp with Coder Academy. Learning the ins and outs of web development was incredibly fun, challenging, and demanding as I had to time manage life along with course material, assignments, continuous learning on the side, and major projects. 
+                            After relocating to Australia, I discovered a beautiful location known for its tourism and hospitality industry - Byron Bay. Seeking a greater challenge and a sense of pride in my work, I transitioned from managerial roles to enrolling in a 10-month intensive web development bootcamp with Coder Academy. Returning to an acedemic setting and balancing coursework again, along with assignments and major projects proved demanding yet rewarding. 
                             <br />
                             <br />
-                            However on the other side of perseverance is success, growth, and achievement which is what I have been aiming for throughout my iterative approach to education and learning. 
+                            However through perseverance and an iterative approach to education, I have been able to achieve success, growth, and personal fulfillment which has brought me joy in what I do.
                             <br />
                             <br />
                         </p>
@@ -90,19 +89,16 @@ export function About() {
                         <p className="font-semibold tracking-wide"> ./Moved to Aus</p>
                         <br />
                         <p className="">
-                            As you may have picked up above, I am originally from America - well <i>originally</i> from India (I was born there but adopted as a baby into an Indian American family). Fast forward to 2018, a year after graduating from uni and 6 months after finishing a marketing internship for <a className="relative inline-block bg-gradient-to-t from-sky-300 from-35% to-transparent to-40% hover:bg-sky-300 transition duration-100 ease-in-out" href="https://webershandwick.com/">Weber Shandwick</a> in Washington D.C., I decided I needed to leave the U.S. The general culture, way of living, and societal interests were no longer aligning with me.
+                            As you may have gathered, I have a unique background, being born in India and adopted into an Indian American family. After graduating from university and completing a marketing internship for <a className="relative inline-block bg-gradient-to-t from-sky-300 from-35% to-transparent to-40% hover:bg-sky-300 transition duration-100 ease-in-out" href="https://webershandwick.com/">Weber Shandwick</a> in Washington D.C., I felt a need to leave the U.S. - the culture and way of life was very obviously no longer in alignment with my interests or character. 
                             <br />
                             <br />
-                            I wanted to go to a part of the world that I hadn&#39;t been yet and where I wouldn&#39;t be able to speak the language: South East Asia. I chose to check out Vietnam, Cambodia, Thailand and Bali and do a bit of solo exploration. Fast forward to arriving in Bali, my last spot and near end of my trip - oh, and meeting my now-husband that evening. Only meant to stay in Bali for 5 days and then return home, I actually chose to not get on my flight and stay an additional month. 
+                            Seeking new experiences, I decided to explore Southeast Asia, specifically Vietnam, Cambodia, Thailand, and Bali. During my time in Bali, I unexpectedly met my now-husband and chose to extend my stay instead of returning home. After staying an additional month in Bali, we had to decide whether or not I was going to return back to the U.S. or spend more time together. He was Australian, and eventually, we settled in Byron Bay for eight months before returning to America to tie up loose ends and finalize my move to Australia.
                             <br />
                             <br />
-                            Of course he was Australian and swooned me back to Byron Bay where we eventually stayed for another 8 months before returning to America to tie up affairs and finalize my move over to Australia permanently. Once settled in Byron atfer sorting out a proper visa, I had to adapt and integrate into the Australian culture which took some getting used to.
+                            Although the U.S. and Australia are similar in that both countries speak the same language, adjusting to the Australian culture did take some time. I had to navigate social conversation etiquette, different intonations, the underdog mentality, and different ways of celebrating holidays (this may seem small but holidays are very celebrated in America)! However, Australia&#39;s unostentatious, convivial, and nature-centric lifestyle resonated with me. The emphasis on whole foods and holistic living aligned perfectly with my personal choices, enhancing my overall well-being and reinvigorated my zest for life.
                             <br />
                             <br />
-                            Things like the nuances between social conversation etiquette and differences in celebrating holidays stumped me for a while. But I was ready to leave America and Australia was the perfect fit; laid-back, convivial, unostentatious, and appreciation for nature resonated with me. The purity of whole foods in Australia and general aptitude for a healthy lifestyle synthesized perfectly with my lifestyle choices. Australia&#39;s dedication to holistic living has significantly enhanced my well-being and zest for life.  
-                            <br />
-                            <br />
-                            Through debugging my life, I&#39;ve had the opportunity to immerse myself in a new way of living, forge meaningful connections, and continue my personal and professional growth. I&#39;m excited to continue to thrive in an environment that supports my pursuit of a fulfilling and balanced life. Australia&#39;s beauty has truly captured my heart.
+                            Through debugging my life, I&#39;ve had the opportunity to immerse myself in a new way of living, forge meaningful connections, and continue my personal and professional growth. I&#39;m excited to continue to thrive in an environment that supports my pursuit of a fulfilling and balanced life.
                         </p>
                     </div>
                 </section>
@@ -116,22 +112,19 @@ export function About() {
                         <p className="font-semibold tracking-wide"> ./Managerial Roles</p>
                         <p className="font-semibold tracking-wide"> ./Web Developer</p>
                         <br />
-                        <p>Transitioning from the rigid and demanding work culture around marketing in America, my arrival in Australia, particularly in Byron Bay, was a stark contrast but a pleasant surprise. I realized no one even knew my uni and that was okay! As briefly mentioned before, Byron Bay is known for its beautiful beaches, crystal blue waters, and country lifestyle and not so much its corporate job opportunities.
+                        <p>In comparison to the rigid and demanding work culture in America, my arrival in Byron Bay brought a pleasant surprise.  I realized that the focus was not on prestigious university backgrounds but on interpersonal skills and adaptability. Job opportunities in the corporate sector were limited, so I explored different roles, starting with cleaning and eventually moving into managing a cleaning team and then assisting with administrative tasks.
                         <br />
                         <br />
-                        So what was I to do for work, I thought? Little did I know this was actually a pot of gold in disguise - I could do anything and excel at it! So I worked in a cleaning role, then worked my way to managing the cleaning team, and then working alongside the owner of the cleaning business on more admin tasks and higher management. But I wasn&#39;t excited by my work or proud to say what I did. I moved on to then working for a luxury property rental company, managing a portfolio properties. I found this job fun as each day was different and I got to spend a lot of time in a lot of <i>really</i> beautiful homes around the hinterland region. I also enjoyed speaking to guests and checking all the small details before their arrival. 
+                        While working for a luxury property rental company, I found enjoyment in the variety of tasks and the opportunity to visit beautiful homes. However, I still felt a lack of passion and challenge in my work. Reflecting on my situation and the desire for change, my husband and I decided to take a trip back to America to visit some close friends and family as borders had since reopened.
                         <br />
                         <br />
-                        However, I found myself in the same situation as before and thinking, I&#39;m just not passionate about this nor am I being challenged. This job was off the back of covid so I actually had&#39;t been back to America since moving away, and I was beginning to think maybe Byron is just <i>too</i> small. My husband and I decided to go back and do a big trip as many of my friends actually hadn&#39;t met him before and also to decide what needed to change.
+                        During this time, a friend suggested that my husband explore coding and web development as a potential career path. While he initially hesitated, it piqued my interest. Drawing on my previous but brief experience in computer science and my affinity for languages and problem-solving, I realized web development might be a better fit for me.
                         <br />
                         <br />
-                        One of my husband&#39;s closest friends had just sold his business for multimillions and suggested my husband actually look into coding and web development as a career. My husband looked into it for a while but didn&#39;t think it would hold his attention but in that time, it piqued mine. I recalled doing a semester of computer science in uni and loving it and coupled with my love for languages and tetris-like brain, I thought it may actually be a better fit for me. 
+                        Enrolling in the bootcamp allowed me to upskill and become potent in my web development career. I&#39;m the type that gives everything to my work and won&#39;t settle for MVP. I am continuously striving for excellence and find satisfaction in resolving intricate bugs. I genuinely enjoy the challenges I face on a daily basis and love celebrating small (and big!) wins.
                         <br />
                         <br />
-                        Enrolling in the bootcamp allowed me to upskill and become potent in my web development career. I&#39;m the type that gives everything to my work and won&#39;t settle for MVP. I find myself getting into little rabbit holes of bugs and just chipping away until I get the small-win satisfaction when I resolve it. I realize I must like it enough to spend hours and hours doing it each day!
-                        <br />
-                        <br />
-                        Mainly, I am proud to be working in web development, and excited by the daily challenges. I feel great joy in being able to create functional and visually appealing websites that have a real impact on users. It&#39;s incredibly fulfilling to see my work come to life and contribute to the digital landscape in one way or another. 
+                        Working in web development brings me pride as I&#39;m able witness my work come to life. Contributing to the digital landscape is immensely fulfilling and I feel great joy in being able to create functional and visually appealing websites that have a real impact on users.The purpose behind my work continues to be a driving force in my professional motivation.
                         </p>
                     </div>
                 </section>
@@ -157,7 +150,7 @@ export function About() {
                 </section>
                 <div className="flex justify-center text-xl font-semibold pt-10" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-delay="100">
                     <a href={resumePDF} target="_blank" rel="noopener noreferrer">
-                        <button id="pdf" className="bg-sky-300 hover:bg-sky-400 hover:scale-105 ease-out duration-200 text-white font-poppins py-2 px-4 rounded w-96 h-16 mb-10">
+                        <button id="pdf" className="bg-sky-300 hover:bg-sky-400 hover:scale-105 ease-out duration-200 text-white font-poppins py-2 px-4 rounded md:w-96 h-16 lg:mb-10">
                         View Resumé
                         </button>
                     </a>
