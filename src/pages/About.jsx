@@ -115,16 +115,16 @@ export function About() {
                         <p>In comparison to the rigid and demanding work culture in America, my arrival in Byron Bay brought a pleasant surprise.  I realized that the focus was not on prestigious university backgrounds but on interpersonal skills and adaptability. Job opportunities in the corporate sector were limited, so I explored different roles, starting with cleaning and eventually moving into managing a cleaning team and then assisting with administrative tasks.
                         <br />
                         <br />
-                        While working for a luxury property rental company, I found enjoyment in the variety of tasks and the opportunity to visit beautiful homes. However, I still felt a lack of passion and challenge in my work. Reflecting on my situation and the desire for change, my husband and I decided to take a trip back to America to visit some close friends and family as borders had since reopened.
+                        Whilst working for <a className="relative inline-block bg-gradient-to-t from-sky-300 from-35% to-transparent to-40% hover:bg-sky-300 transition duration-100 ease-in-out" href="https://webershandwick.com/">Your Luxury Escape</a>, a holiday property rental company, I found enjoyment in the variety of tasks and the opportunity to visit beautiful homes. However, I still felt a lack of passion for and challenge in my work. Reflecting on my situation and the desire for change, my husband and I decided to take a trip back to America to visit some close friends and family as borders had since reopened.
                         <br />
                         <br />
                         During this time, a friend suggested that my husband explore coding and web development as a potential career path. While he initially hesitated, it piqued my interest. Drawing on my previous but brief experience in computer science and my affinity for languages and problem-solving, I realized web development might be a better fit for me.
                         <br />
                         <br />
-                        Enrolling in the bootcamp allowed me to upskill and become potent in my web development career. I&#39;m the type that gives everything to my work and won&#39;t settle for MVP. I am continuously striving for excellence and find satisfaction in resolving intricate bugs. I genuinely enjoy the challenges I face on a daily basis and love celebrating small (and big!) wins.
+                        Enrolling in the bootcamp allowed me to upskill and become potent in my web development career. I&#39;m the type that gives everything to my work and won&#39;t settle for a minimum viable product, unless that&#39;s the goal. I am continuously striving for excellence and find satisfaction in resolving intricate bugs. I genuinely enjoy the challenges I face on a daily basis and love celebrating small (and big!) wins.
                         <br />
                         <br />
-                        Working in web development brings me pride as I&#39;m able witness my work come to life. Contributing to the digital landscape is immensely fulfilling and I feel great joy in being able to create functional and visually appealing websites that have a real impact on users.The purpose behind my work continues to be a driving force in my professional motivation.
+                        Working in web development brings me pride as I&#39;m able witness my work come to life. Contributing to the digital landscape is immensely fulfilling and I feel great joy in being able to create functional and visually appealing websites that have a real impact on users. The purpose of my work continues to be a driving force behind my professional motivation.
                         </p>
                     </div>
                 </section>
