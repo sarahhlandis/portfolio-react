@@ -34,7 +34,7 @@ export function SoloProject() {
     <div className="flex flex-col lg:flex-row-reverse"
       data-aos="fade-in" data-aos-easing="ease-in" data-aos-duration="1700">
       <div className="flex h-60 md:h-auto pt-5 pb-8 md:flex-col lg:w-6/12 lg:pb-0 lg:pt-0">
-        <img src={project.image} alt={project.title} />
+          <img src={project.image} alt={project.title} className="object-cover object-center"/>
       </div>
       <div className="flex flex-col font-poppins font-extralight md:pr-8 lg:w-6/12 lg:pt-5">
         <div className="text-5xl italic">{project.title}</div>
@@ -72,7 +72,7 @@ export function SoloProject() {
         )}
         <br />
         </div>
-        {/* below links currently coded for continuous iterating thru array */}
+        {/* below links currently coded for continuously iterating thru array */}
         <div className="flex justify-evenly">
           <div className="hover:scale-125 ease-out duration-200"> 
               {/* if wanting the buttons to stop at first and last, uncomment below 
