@@ -1,6 +1,6 @@
 import React, { useEffect} from "react";
 import StackGrid from "../components/StackGrid";
-import biopic from "../assets/images/biopic.jpeg";
+import biopic from "../assets/images/biopic.jpg";
 import { UpArrow } from "../assets/nav_arrows/UpArrow";
 import resumePDF from "../assets/Sarah_Landis_Resume.pdf"; 
 import { ColorRise } from "../components/ColorRise";
