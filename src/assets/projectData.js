@@ -3,7 +3,7 @@ import scribble from '../assets/images/scribble.png'
 import portfolio from '../assets/images/portfolio.png'
 import viper from '../assets/images/viper.png'
 import ff from '../assets/images/ff.png'
-import indev from '../assets/images/indev.png'
+import hhhome from '../assets/images/hhhome.png'
 
 const projects = [
     { id: 1, 
@@ -51,13 +51,13 @@ const projects = [
     demo: "https://moonswell.netlify.app/",
     },
     { id: 6, 
-        title: "Hope Hunters",
-        date: "In development - Expected Aug 2023",
-        image: `${indev}`,
+        title: "Hope Helpers",
+        date: "August 2023",
+        image: `${hhhome}`,
         abstract: "Aggregate Missing Persons Site",
-        description: "A full stack MERN application built using MongoDB, Express, React, and Node. This collaborative project features a site which intends to serve as a missing persons database for the public to use. The application supports user signup/sign in, JWT authentication, ability to update missing person records, etc. This site is in development and will include more useful features so stay tuned!",
-        repo: "",
-        demo: "",
+        description: "A full stack MERN application built using MongoDB, Express, React, and Node. This collaborative project features a site which intends to serve as a missing persons database for the public to use. The corresponding backend database is fully functional and stores data securely. The application supports user signup/sign in with email verification, JWT authentication, functionality to update missing person records, and direct sharing of reports to social media, etc. I developed, designed, and built the frontend however some stylistic choices were deliberated on as a team.",
+        repo: "https://github.com/Sarah-Connie",
+        demo: "https://hope-helpers.netlify.app/",
     },
 ];
 
