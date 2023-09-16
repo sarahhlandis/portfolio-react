@@ -35,7 +35,7 @@ export function About() {
                 </section>
                 {/* <p data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-delay="100" */}
                 <p className="pb-10">
-                    If you want to know more about me, keep reading. 
+                    If you would like to know more about me, keep reading. 
                     <br/>
                     <br /> 
                     Or, stick with what you know and check out <a className="font-semibold relative inline-block bg-gradient-to-t from-sky-300 from-35% to-transparent to-40% hover:bg-sky-300 transition duration-100 ease-in-out" href="#tech">my stack & resumé</a>.
