@@ -4,6 +4,7 @@ import portfolio from '../assets/images/portfolio.png'
 import viper from '../assets/images/viper.png'
 import ff from '../assets/images/ff.png'
 import hhhome from '../assets/images/hhhome.png'
+import replika from '../assets/images/replika.png'
 
 const projects = [
     { id: 1, 
@@ -59,6 +60,16 @@ const projects = [
         repo: "https://github.com/Sarah-Connie",
         demo: "https://hope-helpers.netlify.app/",
     },
+    { id: 7, 
+        title: "Replika",
+        date: "October 2023",
+        image: `${replika}`,
+        abstract: "Remote Website Rebuild",
+        description: "This purpose of this project was to revamp and rebrand Replika, a visual studio with realtime visualisation expertise. My colleague and I were tasked with having a polished and deployed site live in 3 weeks time for a national expo. I researched, conceptualized and proposed the website design, color scheme, and branding in the initial design stage. I also headed the transference of wireframe to code in terms of design, copy, and layout. Project timelines were adhered to both daily and weekly, in which I assisted in delegating priority tasks and took on the role of merge master.",
+        repo: "",
+        demo: "https://replikaxplore.com",
+    },
+    
 ];
 
 // most recent shown first
